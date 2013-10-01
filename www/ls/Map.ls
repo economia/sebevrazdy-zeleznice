@@ -1,5 +1,5 @@
 window.Map = class Map
-    (parentSelector, @topojson, {width, height}:options) ->
+    (parentSelector, @topojson, @animation, {width, height}:options) ->
         scaleX = 8.45 * width
         scaleY = 14.7 * height
         scale = Math.min scaleX, scaleY
@@ -12,6 +12,8 @@ window.Map = class Map
             ..attr \width width
             ..attr \height height
 
+        @animation.on \frame @~onFrame
+
     draw: ->
         geoPath = d3.geo.path!
             ..projection @projection
@@ -23,6 +25,10 @@ window.Map = class Map
             .data features
             .enter!.append \path
                 ..attr \d geoPath
+
+    onFrame: (state) ->
+        state = Math.floor state
+
 
 getCount = (datastring) ->
     count = 0
