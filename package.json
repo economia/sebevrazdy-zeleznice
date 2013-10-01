@@ -1,0 +1,24 @@
+{
+  "name": "sebevrazdy-zeleznice",
+  "version": "0.0.0",
+  "description": "[Datablog](http://ihned.cz/data/) portálu [IHNED.cz](http://ihned.cz/) vydavatelství [e.conomia](http://economia.ihned.cz/)\r ve spolupráci s oddělením vývoje redakčních technologií [IHNED.cz](http://ihned.cz/)",
+  "main": "www/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/economia/sebevrazdy-zeleznice.git"
+  },
+  "author": "",
+  "license": "CC-BY-NC-SA",
+  "bugs": {
+    "url": "https://github.com/economia/sebevrazdy-zeleznice/issues"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "stylus": "~0.38.0",
+    "uglify-js": "~2.4.0",
+    "request": "~2.27.0"
+  }
+}
