@@ -24,7 +24,6 @@ window.Map = class Map
             .data @features
             .enter!.append \path
                 ..attr \class \all
-                ..attr \data-tooltip -> it.properties.trat
                 ..attr \d @geoPath
                 ..attr \title -> it.properties.id
                 ..attr \stroke \#aaa

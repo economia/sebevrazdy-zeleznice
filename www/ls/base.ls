@@ -1,4 +1,3 @@
-new Tooltip!watchElements!
 (err, json) <~ d3.json "../data/trate.topo.json"
 (err, csv) <~ d3.csv do
     "../data/incidenty.csv"
