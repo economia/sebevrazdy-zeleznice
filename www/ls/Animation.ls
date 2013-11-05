@@ -1,6 +1,5 @@
-
 window.Animation = class Animation
-    step: 1/50
+    step: 1_per_second
     currentValue: 0
     stopping: no
     ->
@@ -10,8 +9,8 @@ window.Animation = class Animation
     start: ->
         window.requestAnimationFrame @~increment
 
-    increment: ->
-        @currentValue += @step
+    increment: (t) ->
+        @currentValue = t * @step / 1000
         @event.frame @currentValue
         if not @stopping
             window.requestAnimationFrame @~increment
