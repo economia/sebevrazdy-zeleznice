@@ -17,6 +17,7 @@ window.Map = class Map
             ..attr \height height
 
         @drawRailways!
+        @animation.on \frame @~onFrame
 
     drawRailways: ->
         @svg.selectAll \path.all
@@ -28,12 +29,12 @@ window.Map = class Map
                 ..attr \title -> it.properties.id
                 ..attr \stroke \#aaa
 
-    drawRailway: (trat) ->
+    drawRailway: (railwayNumber) ->
         fadeInDuration = 800
         pauseDuration = 400
         fadeOutDuration = 800
         railwayPath = @svg.selectAll \path.all
-            .filter -> it.properties.trat == trat
+            .filter -> it.properties.trat == railwayNumber
         railwayPath
             ..transition!
                 ..duration fadeInDuration
@@ -46,8 +47,7 @@ window.Map = class Map
     onFrame: (state) ->
         dataIndex = Math.floor state
         datum = @data[dataIndex]
-        railwayIndices = datum.railways.map -> it - 1
-        @drawRailway 231
+        @drawRailway datum.railway
 
 getCount = (datastring) ->
     count = 0

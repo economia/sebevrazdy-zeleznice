@@ -1,26 +1,24 @@
 new Tooltip!watchElements!
 (err, json) <~ d3.json "../data/trate.topo.json"
-(err, csv) <~ d3.tsv do
-    "../data/skokani.csv"
+(err, csv) <~ d3.csv do
+    "../data/incidenty.csv"
     (it, index) ->
-        [fromPlace, toPlace] = it.nazev.split " - "
+        [fromPlace, toPlace] = it.name.split " - "
         return do
             id        : index
-            railways  : it.id.split "," .map -> parseInt it, 10
+            railway   : parseInt it.id, 10
             fromPlace : fromPlace
             toPlace   : toPlace
-            fromDate  : moment it.od, "DD.MM.YYYY HH:mm"
-            toDate    : moment it.do, "DD.MM.YYYY HH:mm"
+            fromDate  : moment it.start, "YYYYMMDDHHmmss"
+            toDate    : moment it.end, "YYYYMMDDHHmmss"
 
 width = window.innerWidth
 height = window.innerHeight
 animation = new Animation!
-    # ..start!
+    ..start!
 map = new Map do
     \#content
     json
     csv
     animation
     {width, height}
-
-map.onFrame 21
