@@ -48,11 +48,3 @@ window.Map = class Map
         datum = @data[dataIndex]
         @drawRailway datum.railway
 
-getCount = (datastring) ->
-    count = 0
-    lines = datastring.split "\n"
-    sum = lines.reduce  do
-        (sum, line) ->
-            num = line.split '\t' .pop!
-            sum += parseInt num
-        0
