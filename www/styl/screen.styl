@@ -8,7 +8,6 @@ body
         position absolute
         top 0px
         left 0px
-        z-index 2
         path
             fill none
             &:hover
@@ -17,10 +16,46 @@ body
                 stroke red
                 stroke-width 5px
                 fill red
-    .map
+
+    .flipboard
         position absolute
         top 0px
-        left 0px
-        z-index 1
-        img.tile
+        right 0px
+        width 912px
+        height 120px
+        .upper
+        .lower
+        .new
+        .old
             position absolute
+            left 0px
+            width @width
+        .new
+            top 0px
+        .old
+            bottom 0px
+
+        .upper
+            top 00px
+
+        .lower
+            top 60px
+            .new
+                z-index 1
+        .upper
+        .lower
+            height 60px
+            .new
+            .old
+                width @width
+                height @height
+        .upper
+            .new
+                background #050
+            .old
+                background #500
+        .lower
+            .new
+                background #040
+            .old
+                background #400

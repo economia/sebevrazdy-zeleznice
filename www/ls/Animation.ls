@@ -1,5 +1,5 @@
 window.Animation = class Animation
-    step: 1_per_second
+    step: 0.5_per_second
     currentValue: 0
     stopping: no
     ->
