@@ -11,3 +11,4 @@ data/mapy/
 /www/script.js
 /www/img/cloud.png
 /*.sublime-workspace
+.~*

@@ -11,8 +11,7 @@ window.Map = class Map
         @geoPath = d3.geo.path!
             ..projection @projection
 
-        {@features} = topojson.feature @topoData, @topoData.objects.zeleznice
-        console.log @features
+        {@features} = topojson.feature @topoData, @topoData.objects.trate
         @svg = d3.select parentSelector .append \svg
             ..attr \width width
             ..attr \height height

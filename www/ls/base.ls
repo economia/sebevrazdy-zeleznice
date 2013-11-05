@@ -1,4 +1,4 @@
-(err, json) <~ d3.json "../data/zeleznice.topojson"
+(err, json) <~ d3.json "../data/trate.topo.json"
 (err, csv) <~ d3.tsv do
     "../data/skokani.csv"
     (it, index) ->
