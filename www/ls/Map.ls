@@ -1,4 +1,5 @@
 window.Map = class Map
+    currentDatum: null
     (parentSelector, @topoData, @data, @animation, {@width, @height}:options) ->
         @projection = d3.geo.mercator!
             .scale (1 .<<. 16) / 2 / Math.PI
@@ -75,5 +76,7 @@ window.Map = class Map
     onFrame: (state) ->
         dataIndex = Math.floor state
         datum = @data[dataIndex]
-        @drawRailway datum.railway
+        if datum isnt @currentDatum
+            @drawRailway datum.railway
+            @currentDatum = datum
 
