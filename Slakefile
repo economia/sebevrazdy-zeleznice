@@ -6,6 +6,7 @@ option 'currentfile' 'Latest file that triggered the save' 'FILE'
 externalScripts =
     \http://service.ihned.cz/js/d3/v3.3.2.min.js
     \http://service.ihned.cz/js/topojson/v1.min.js
+    \http://service.ihned.cz/js/moment/v2.2.1.min.js
 
 externalStyles = []
 

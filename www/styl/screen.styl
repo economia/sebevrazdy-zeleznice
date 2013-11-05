@@ -7,5 +7,11 @@ body
     svg
         path
             fill none
-            stroke black
-            stroke-width 1px
+            stroke #aaa
+            stroke-width 2px
+            &:hover
+                stroke red
+            &.active
+                stroke red
+                stroke-width 5px
+                fill red

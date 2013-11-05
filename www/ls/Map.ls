@@ -1,5 +1,5 @@
 window.Map = class Map
-    (parentSelector, @topojson, @animation, {width, height}:options) ->
+    (parentSelector, @topoData, @data, @animation, {width, height}:options) ->
         scaleX = 8.45 * width
         scaleY = 14.7 * height
         scale = Math.min scaleX, scaleY
@@ -8,26 +8,33 @@ window.Map = class Map
             .scale scale
             .translate [width/2 height/2]
 
+        @geoPath = d3.geo.path!
+            ..projection @projection
+
+        {@features} = topojson.feature @topoData, @topoData.objects.zeleznice
+        console.log @features
         @svg = d3.select parentSelector .append \svg
             ..attr \width width
             ..attr \height height
+        @path = @svg.append \path
 
         @animation.on \frame @~onFrame
 
-    draw: ->
-        geoPath = d3.geo.path!
-            ..projection @projection
-        {features} = topojson.feature @topojson, @topojson.objects.zeleznice
-        sums = {}
-        max = -Infinity
-
+    drawRailways: (indices) ->
+        console.log indices
+        railways = indices.map ~> @features[it]
+        console.log railways
         @svg.selectAll \path
-            .data features
+            .data @features
             .enter!.append \path
-                ..attr \d geoPath
+                ..attr \d @geoPath
+                ..attr \title -> it.properties.id
 
     onFrame: (state) ->
-        state = Math.floor state
+        dataIndex = Math.floor state
+        datum = @data[dataIndex]
+        railwayIndices = datum.railways.map -> it - 1
+        @drawRailways railwayIndices
 
 
 getCount = (datastring) ->
