@@ -1,3 +1,4 @@
+new Tooltip!watchElements!
 (err, json) <~ d3.json "../data/trate.topo.json"
 (err, csv) <~ d3.tsv do
     "../data/skokani.csv"
@@ -23,4 +24,3 @@ map = new Map do
     {width, height}
 
 map.onFrame 21
-
