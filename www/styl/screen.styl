@@ -5,12 +5,22 @@ body
     line-height 1.3em
     font-family arial, sans-serif
     svg
+        position absolute
+        top 0px
+        left 0px
+        z-index 2
         path
             fill none
-            stroke-width 2px
             &:hover
                 stroke red
             &.active
                 stroke red
                 stroke-width 5px
                 fill red
+    .map
+        position absolute
+        top 0px
+        left 0px
+        z-index 1
+        img.tile
+            position absolute
