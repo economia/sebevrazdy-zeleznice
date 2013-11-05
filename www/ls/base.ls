@@ -25,6 +25,6 @@ tiler = new Tiler do
     \#content
     map
 
-<~ setTimeout _, 800
-<~ map.fadeBg 1600
+# <~ setTimeout _, 800
+<~ map.fadeBg 100
 animation.start!

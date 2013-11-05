@@ -41,6 +41,7 @@ window.Map = class Map
             ..duration duration
             ..attr \opacity 1
         setTimeout cb, duration
+
     drawRailways: ->
         @railways = @railGroup.selectAll \path.all
             .data @features
@@ -48,23 +49,28 @@ window.Map = class Map
                 ..attr \class \all
                 ..attr \d @geoPath
                 ..attr \title -> it.properties.id
-                ..attr \stroke \#aaa
+                ..attr \stroke \#666
                 ..attr \stroke-width 2
                 ..attr \opacity 0
 
     drawRailway: (railwayNumber) ->
-        fadeInDuration = 800
-        pauseDuration = 400
+        glowDuration = 600
+        fadeInDuration = 200
+        pauseDuration = 600
         fadeOutDuration = 800
         railwayPath = @railways.filter -> it.properties.trat == railwayNumber
         railwayPath
             ..transition!
-                ..duration fadeInDuration
-                ..attr \stroke \#f00
+                ..duration glowDuration
+                ..attr \stroke \#ee0
             ..transition!
-                ..delay fadeInDuration + pauseDuration
+                ..delay glowDuration
+                ..duration fadeInDuration
+                ..attr \stroke \#fff
+            ..transition!
+                ..delay pauseDuration + fadeInDuration + glowDuration
                 ..duration fadeOutDuration
-                ..attr \stroke \#aaa
+                ..attr \stroke \#666
 
     onFrame: (state) ->
         dataIndex = Math.floor state
