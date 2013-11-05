@@ -16,3 +16,4 @@ window.Tiler = class Tiler
                 ..attr \xlink:href -> "http://ihned-mapy.s3-website-eu-west-1.amazonaws.com/desaturized/#{it.2}/#{it.0}/#{it.1}.png"
                 ..attr \x -> it.0
                 ..attr \y -> it.1
+                ..on \error -> @remove!
