@@ -1,0 +1,878 @@
+id,name,start,end,reason
+231,Libice n.C. - Poděbrady,20101212155500,20101212190000,následky srážky vlaku s osobou
+41,Jičín - Libuň,20101212154000,20101212190000,následky srážky vlaku s osobou
+91,Kralupy n.Vlt. - Kralupy n.Vlt.,20101214065600,20101214100000,následky srážky vlaku s osobou
+250,Sázava u Žď. - Sázava u Žď.,20101215051200,20101215073000,následky srážky vlaku s osobou
+20,Hr.Králové-Sl.Př. - Hradec Králové hl.n.,20101215200900,20101215230000,následky srážky vlaku s osobou
+270,Studénka - Suchdol n.O.,20101217160500,20101217190000,následky srážky vlaku s osobou
+36,Jablonec n.N.dol.n. - Jablonec n.N.,20101218050000,20101218110000,následky srážky vlaku s osobou
+291,Zábřeh na M. - Postřelmov,20101218230600,20101219040000,následky srážky vlaku s osobou
+250,Hrušovany u Brna - Modřice,20101220222900,20101221040000,následky srážky vlaku s osobou
+290,Uničov - Troubelice,20101221213800,20101221235900,následky srážky vlaku s osobou
+231,Kolín - V.Osek,20101223192000,20101223220000,následky srážky vlaku s osobou
+10,Kostěnice - Moravany,20101223204000,20101223233000,následky srážky vlaku s osobou
+190,Horažďovice př. - Střelské Hoštice,20110101190000,20110101213000,následky srážky vlaku s osobou
+130,Chomutov - Kyjice,20110102175500,20110102195500,následky srážky vlaku s osobou
+221,Praha-Hostivař - Praha-Vršovice,20110106142000,20110106170000,následky srážky vlaku s osobou
+240,Střelice - Brno-H.Heršpice,20110108134500,20110108175500,následky srážky vlaku s osobou
+301,Vrbátky - Prostějov hl.n.,20110109192300,20110109230000,následky srážky vlaku s osobou
+321,Havířov - Albrechtice u Č.T.,20110110162000,20110110190000,následky srážky vlaku s osobou
+280,Vsetín - Valašské Meziříčí,20110111043000,20110111110000,následky srážky vlaku s osobou
+10,Brandýs n.Orl. - Choceň,20110111095000,20110111123000,následky srážky vlaku s osobou
+171,Praha-Smíchov - Praha-Radotín,20110112185000,20110112230000,následky srážky vlaku s osobou
+110,Slaný - Zlonice,20110113050100,20110113080100,následky srážky vlaku s osobou
+260,Svitavy - Březová n.Svit.,20110117104500,20110117140000,následky srážky vlaku s osobou
+231,Praha hl.n. - Praha-Vysočany,20110117205000,20110117225000,následky srážky vlaku s osobou
+21,Doudleby n.Orl. - Potštejn,20110118170000,20110118200000,následky srážky vlaku s osobou
+196,Kaplice - Kaplice,20110118172000,20110118200500,následky srážky vlaku s osobou
+323,Veřovice - Valašské Meziříčí,20110118200300,20110118223500,následky srážky vlaku s osobou
+330,Hodonín - Hodonín,20110120193000,20110120223000,následky srážky vlaku s osobou
+194,Č.Krumlov - Zlatá Koruna,20110123151500,20110123190000,následky srážky vlaku s osobou
+140,Ostrov n.Ohří - Hájek,20110127094000,20110127120000,následky srážky vlaku s osobou
+250,Modřice - Hrušovany u Brna,20110129073200,20110129150000,následky srážky vlaku s osobou
+250,Brno hl.n. - Tišnov,20110129111800,20110129121800,následky srážky vlaku s osobou
+321,Č.Těšín - Albrechtice u Č.T.,20110131180000,20110131223000,následky srážky vlaku s osobou
+11,Velim - Pečky,20110131204500,20110131234500,následky srážky vlaku s osobou
+270,Ostrava hl.n. - Bohumín,20110203173300,20110203200000,následky srážky vlaku s osobou
+275,Olomouc hl.n. - Olomouc-Řepčín,20110204202000,20110204230000,následky srážky vlaku s osobou
+250,Brno-Královo Pole - Kuřim,20110206091200,20110206130000,následky srážky vlaku s osobou
+270,Č.Třebová - Třebovice v Č.,20110208175500,20110208210000,následky srážky vlaku s osobou
+80,Č.Lípa hl.n. - N.Bor,20110209121000,20110209153000,následky srážky vlaku s osobou
+170,Plzeň hl.n. - Kozolupy,20110211084300,20110211133000,následky srážky vlaku s osobou
+190,Plzeň hl.n. - Kozolupy,20110211084300,20110211133000,následky srážky vlaku s osobou
+260,Skalice n.Svit. - Letovice,20110211200500,20110211223000,následky srážky vlaku s osobou
+91,Vraňany - Kralupy n.Vlt.,20110214185100,20110214220000,následky srážky vlaku s osobou
+11,Praha-Běchovice - Praha-Běchovice,20110215060000,20110215083000,následky srážky vlaku s osobou
+70,Praha-Vysočany - Všetaty,20110215143500,20110215163000,následky srážky vlaku s osobou
+126,Bečov u Mostu - Břvany,20110216133500,20110216160000,následky srážky vlaku s osobou
+171,Praha-Smíchov - Praha hl.n.,20110218091500,20110218093500,následky srážky vlaku s osobou
+11,Praha-Běchovice - Úvaly,20110219224500,20110220014500,následky srážky vlaku s osobou
+30,Železný Brod - Turnov,20110221070000,20110221103000,následky srážky vlaku s osobou
+90,Lovosice - Bohušovice n.Ohří,20110221200000,20110221223000,následky srážky vlaku s osobou
+292,Mikulovice - Jindřichov ve Sl.,20110225160600,20110225194000,následky srážky vlaku s osobou
+221,Praha-Hostivař - Praha hl.n.,20110301190000,20110301230000,následky srážky vlaku s osobou
+200,Jince - Lochovice,20110303192000,20110303235900,následky srážky vlaku s osobou
+330,Huštěnovice - St.Město u U.H.,20110303195500,20110303235900,následky srážky vlaku s osobou
+320,Karviná hl.n. - Louky n.Olší,20110304170000,20110304202000,následky srážky vlaku s osobou
+223,Olbramovice - Sedlčany,20110305055000,20110305085000,následky srážky vlaku s osobou
+72,Všetaty - Mělník,20110309183000,20110309203000,následky srážky vlaku s osobou
+321,Albrechtice u Č.T. - Havířov,20110315155600,20110315163000,následky srážky vlaku s osobou
+341,Újezdec u Luh. - Bojkovice město,20110315224500,20110315235500,následky srážky vlaku s osobou
+90,Lovosice - Prackovice n.L.,20110317120500,20110317150000,následky srážky vlaku s osobou
+90,Ústí n.L.hl.n.os.n. - Povrly,20110317200000,20110317223000,následky srážky vlaku s osobou
+310,Hlubočky - Hlubočky-Mar.Údolí,20110317204000,20110317233000,následky srážky vlaku s osobou
+323,Frenštát p.Rad. - Veřovice,20110318160800,20110318180900,následky srážky vlaku s osobou
+140,Chodov - Karlovy Vary,20110321221000,20110321234000,následky srážky vlaku s osobou
+250,Tišnov - Kuřim,20110323083200,20110323104000,následky srážky vlaku s osobou
+91,Praha-Bubeneč - Roztoky u Prahy,20110325120500,20110325140000,následky srážky vlaku s osobou
+290,Šumperk - Libina,20110325184500,20110325230000,následky srážky vlaku s osobou
+130,Chabařovice - Ústí n.L.západ,20110325185200,20110325220000,následky srážky vlaku s osobou
+10,Kostěnice - Pardubice hl.n.,20110326021800,20110326050000,následky srážky vlaku s osobou
+11,Praha hl.n. - Kolín,20110326103000,20110326160000,následky srážky vlaku s osobou
+10,Praha hl.n. - Kolín,20110326103000,20110326160000,následky srážky vlaku s osobou
+260,Praha hl.n. - Kolín,20110326103000,20110326160000,následky srážky vlaku s osobou
+260,Č.Třebová - Brno hl.n.,20110328093500,20110328122000,následky srážky vlaku s osobou
+250,Č.Třebová - Brno hl.n.,20110328093500,20110328122000,následky srážky vlaku s osobou
+11,Č.Třebová - Brno hl.n.,20110328093500,20110328122000,následky srážky vlaku s osobou
+10,Č.Třebová - Brno hl.n.,20110328093500,20110328122000,následky srážky vlaku s osobou
+210,Praha-Zbraslav - Pha-Modřany zast.,20110329222300,20110330013000,následky srážky vlaku s osobou
+200,Čimelice - Čimelice,20110331101100,20110331140000,následky srážky vlaku s osobou
+292,Postřelmov - Postřelmov,20110331094500,20110331114500,následky srážky vlaku s osobou
+30,Liberec - Liberec,20110401051500,20110401073000,následky srážky vlaku s osobou
+86,Liberec - Liberec,20110401051500,20110401073000,následky srážky vlaku s osobou
+36,Liberec - Liberec,20110401051500,20110401073000,následky srážky vlaku s osobou
+238,Pardubice-Ros.n.L. - Medlešice,20110402055200,20110402090000,následky srážky vlaku s osobou
+220,Č.Budějovice - Veselí n.Luž.,20110402063000,20110402093000,následky srážky vlaku s osobou
+184,Poběžovice - Hostouň,20110402071400,20110402111400,následky srážky vlaku s osobou
+330,Otrokovice - Tlumačov,20110402160000,20110402193000,následky srážky vlaku s osobou
+93,Brandýsek - Kladno-Dubí,20110402210000,20110402235900,následky srážky vlaku s osobou
+11,Praha-Libeň - Praha-Běchovice,20110405154800,20110405183000,následky srážky vlaku s osobou
+323,Baška - Frýdlant n.Ostr.,20110407054500,20110407090000,následky srážky vlaku s osobou
+190,Nepomuk - Ždírec u Plzně,20110410075000,20110410103000,následky srážky vlaku s osobou
+301,Vrbátky - Prostějov hl.n.,20110410113000,20110410140000,následky srážky vlaku s osobou
+260,Svitavy - Březová n.Svit.,20110410174500,20110410203000,následky srážky vlaku s osobou
+201,Putim - Písek,20110417200000,20110417223000,následky srážky vlaku s osobou
+200,Putim - Písek,20110417200000,20110417223000,následky srážky vlaku s osobou
+320,Dětmarovice - Karviná hl.n.,20110418160000,20110418184000,následky srážky vlaku s osobou
+321,Chotěbuz - Č.Těšín,20110418223700,20110419015900,následky srážky vlaku s osobou
+320,Chotěbuz - Č.Těšín,20110418223700,20110419015900,následky srážky vlaku s osobou
+270,Prosenice - Přerov,20110419195000,20110419215000,následky srážky vlaku s osobou
+221,Praha-Hostivař - Praha-Uhříněves,20110420183000,20110420213000,následky srážky vlaku s osobou
+80,Bakov n.Jiz. - Bělá p.Bezdězem,20110421143000,20110421163000,následky srážky vlaku s osobou
+40,Lázně Bělohrad - N.Paka,20110421160000,20110421200000,následky srážky vlaku s osobou
+260,Rájec-Jestřebí - Rájec-Jestřebí,20110421215500,20110422010000,následky srážky vlaku s osobou
+280,Valašské Meziříčí - Valašské Meziříčí,20110422131300,20110422160000,následky srážky vlaku s osobou
+0,,20110422140000,20110422170000,následky srážky vlaku s osobou
+10,Pardubice hl.n. - Kostěnice,20110422140000,20110422170000,následky srážky vlaku s osobou
+240,Brno-H.Heršpice - Troubsko,20110426155000,20110426183000,následky srážky vlaku s osobou
+321,Havířov - Ostrava-Bartovice,20110427045000,20110427075000,následky srážky vlaku s osobou
+321,Ostrava-Bartovice - Havířov,20110427045000,20110427070000,následky srážky vlaku s osobou
+72,Liběchov - Mělník,20110427174000,20110427205000,následky srážky vlaku s osobou
+36,Vesec u Liberce - Jablonec n.N.,20110428092400,20110428112400,následky srážky vlaku s osobou
+321,Ostrava-Bartovice - Havířov,20110428145500,20110428173000,následky srážky vlaku s osobou
+276,Suchdol n.O. - Odry,20110503065500,20110503091000,následky srážky vlaku s osobou
+330,Otrokovice - Tlumačov,20110505115000,20110505150000,následky srážky vlaku s osobou
+321,Havířov - Havířov,20110504080000,20110504110000,následky srážky vlaku s osobou
+130,Chomutov - Třebušice,20110506045000,20110506065000,následky srážky vlaku s osobou
+90,D.Beřkovice - Vraňany,20110506201000,20110506223000,následky srážky vlaku s osobou
+301,Prostějov hl.n. - Nezamyslice,20110507213000,20110507233000,následky srážky vlaku s osobou
+250,Modřice - Hrušovany u Brna,20110509064500,20110509094500,následky srážky vlaku s osobou
+340,Nesovice - Nemotice,20110510073000,20110510103000,následky srážky vlaku s osobou
+270,Suchdol n.O. - Polom,20110510193000,20110510213000,následky srážky vlaku s osobou
+90,Ústí n.L.hl.n.sever - Prackovice n.L.,20110511181000,20110511202000,následky srážky vlaku s osobou
+11,Velim - Kolín,20110513220500,20110514013000,následky srážky vlaku s osobou
+24,Ústí n.Orl. - Lichkov,20110514092500,20110514120000,následky srážky vlaku s osobou
+10,Ústí n.Orl. - Lichkov,20110514092500,20110514120000,následky srážky vlaku s osobou
+90,Děčín hl.n. - Ústí n.L.hl.n.sever,20110518054500,20110518073000,následky srážky vlaku s osobou
+10,Pardubice hl.n. - Kostěnice,20110525204400,20110525230000,následky srážky vlaku s osobou
+170,Mar.Lázně - Lázně Kynžvart,20110527023000,20110527050000,následky srážky vlaku s osobou
+271,Kostelec na H. - Prostějov hl.n.,20110527205500,20110527235900,následky srážky vlaku s osobou
+330,Hodonín - Rohatec,20110528151100,20110528173000,následky srážky vlaku s osobou
+183,Dobřany - Chlumčany u Dobřan,20110531172500,20110531190000,následky srážky vlaku s osobou
+203,Strakonice - Blatná,20110601225000,20110602013000,následky srážky vlaku s osobou
+331,Zlín stř. - Vizovice,20110602155000,20110602180000,následky srážky vlaku s osobou
+90,Povrly - Ústí n.L.hl.n.sever,20110602183000,20110602210000,následky srážky vlaku s osobou
+320,Třinec (Trzyniec) - Bystřice (Bystrzyca),20110602225500,20110603014500,následky srážky vlaku s osobou
+122,Hostivice - Praha-Zličín,20110603041800,20110603073000,následky srážky vlaku s osobou
+120,Hostivice - Praha-Zličín,20110603041800,20110603073000,následky srážky vlaku s osobou
+93,Hostivice - Praha-Zličín,20110603041800,20110603073000,následky srážky vlaku s osobou
+120,Kladno - Praha Masarykovo n.,20110603045300,20110603055300,následky srážky vlaku s osobou
+122,Praha-Zličín - Hostivice,20110603045800,20110603060000,následky srážky vlaku s osobou
+72,Všetaty - Mělník,20110604170000,20110604203000,následky srážky vlaku s osobou
+91,Praha-Bubeneč - Pha-Holešov.zast.,20110607173500,20110607204500,následky srážky vlaku s osobou
+91,Praha-Bubeneč - Pha-Holešov.zast.,20110607173500,20110607204500,následky srážky vlaku s osobou
+210,Skochovice - Davle,20110608131000,20110608154000,následky srážky vlaku s osobou
+190,Nepomuk - Ždírec u Plzně,20110610041700,20110610093000,následky srážky vlaku s osobou
+190,Ždírec u Plzně - Nepomuk,20110610050200,20110610080200,následky srážky vlaku s osobou
+280,Hustopeče n.Beč. - Lhotka n.Beč.,20110611003000,20110611043000,následky srážky vlaku s osobou
+162,Zavidov - Lubná,20110611104500,20110611150000,následky srážky vlaku s osobou
+31,Hradec Králové hl.n. - Předměřice n.L.,20110612060000,20110612091500,následky srážky vlaku s osobou
+140,Karlovy Vary - Karlovy Vary,20110612130500,20110612150500,následky srážky vlaku s osobou
+114,Libochovice - Koštice n.Ohří,20110612141000,20110612161000,následky srážky vlaku s osobou
+230,Golčův Jeníkov - Čáslav,20110613080200,20110613103000,následky srážky vlaku s osobou
+343,Sudoměřice n.M. - Strážnice,20110614054800,20110614074800,následky srážky vlaku s osobou
+323,Kunčice p.Ondř. - Frenštát p.Rad.,20110615162200,20110615193000,následky srážky vlaku s osobou
+30,Turnov - Malá Skála,20110615193500,20110615223500,následky srážky vlaku s osobou
+290,Šternberk - Újezd u Uničova,20110618160700,20110618170700,následky srážky vlaku s osobou
+340,Brno hl.n. - Brno-Černovice,20110623170000,20110623190000,následky srážky vlaku s osobou
+270,Olomouc hl.n. - Štěpánov,20110626162000,20110626200000,následky srážky vlaku s osobou
+301,Olomouc hl.n. - Blatec,20110628045500,20110628080000,následky srážky vlaku s osobou
+60,Sadská - Nymburk m.,20110629092000,20110629113000,následky srážky vlaku s osobou
+321,Ostrava-Vítkovice - Ostrava-Svinov,20110629153500,20110629165000,následky srážky vlaku s osobou
+300,Přerov - Věžky,20110629180000,20110629210000,následky srážky vlaku s osobou
+300,Věžky - Přerov,20110629180500,20110629210000,následky srážky vlaku s osobou
+235,Kutná Hora hl.n. - Kutná Hora m.,20110629223000,20000629130900,následky srážky vlaku s osobou
+250,Modřice - Hrušovany u Brna,20110703043000,20110703073000,následky srážky vlaku s osobou
+321,Ostrava-Svinov - Ostrava-Vítkovice,20110705050000,20110705080000,následky srážky vlaku s osobou
+130,Bohosudov - Teplice v Č.,20110708170000,20110708190000,následky srážky vlaku s osobou
+140,Karlovy Vary - Dalovice,20110709044600,20110709070000,následky srážky vlaku s osobou
+199,N.Hrady - Č.Velenice,20110709075400,20110709123000,následky srážky vlaku s osobou
+199,Č.Velenice - Č.Velenice,20110709170800,20110709210000,následky srážky vlaku s osobou
+325,Příbor - Sedlnice kol. 1-6,20110709231500,20110710030000,následky srážky vlaku s osobou
+330,Hodonín - Lužice,20110711103800,20110711131000,následky srážky vlaku s osobou
+330,Hodonín - Lužice,20110711103000,20110711130000,následky srážky vlaku s osobou
+250,Kuřim - Tišnov,20110712141500,20110712161500,následky srážky vlaku s osobou
+310,Opava západ - Opava východ,20110713045600,20110713073000,následky srážky vlaku s osobou
+11,Praha-Běchovice - Úvaly,20110714173000,20110714203200,následky srážky vlaku s osobou
+170,Chodová Planá - Planá u Mar.Láz.,20110723185500,20110723220000,následky srážky vlaku s osobou
+323,Frýdek-Místek - Frenštát p.Rad.,20110724193500,20110724220000,následky srážky vlaku s osobou
+340,Brno hl.n. - Brno-Černovice,20110727045800,20110727085000,následky srážky vlaku s osobou
+301,Vrbátky - Prostějov hl.n.,20110728200500,20110728230000,následky srážky vlaku s osobou
+72,V.Žernoseky - Litoměřice m.,20110729132600,20110729160000,následky srážky vlaku s osobou
+240,Třebíč - Studenec,20110729151500,20110729163500,následky srážky vlaku s osobou
+20,Hr.Králové-Sl.Př. - Hradec Králové hl.n.,20110731222800,20110801012800,následky srážky vlaku s osobou
+238,Hlinsko v Č. - Ždírec n.Doubr.,20110801172500,20110801210000,následky srážky vlaku s osobou
+321,Ostrava-Svinov - Ostrava-Vítkovice,20110802084000,20110802111500,následky srážky vlaku s osobou
+220,Roudná - Soběslav,20110808023000,20110808060000,následky srážky vlaku s osobou
+244,Brno-H.Heršpice - Střelice,20110810044100,20110810070000,následky srážky vlaku s osobou
+240,Brno-H.Heršpice - Střelice,20110810044100,20110810070000,následky srážky vlaku s osobou
+244,Brno-H.Heršpice - Střelice,20110810044100,20110810083000,následky srážky vlaku s osobou
+240,Brno-H.Heršpice - Střelice,20110810044100,20110810083000,následky srážky vlaku s osobou
+270,Olomouc hl.n. - Grygov,20110812020100,20110812043000,následky srážky vlaku s osobou
+240,Jihlava - Luka n.Jihl.,20110813160000,20110813183000,následky srážky vlaku s osobou
+10,Kostěnice - Pardubice hl.n.,20110813235800,20110814030000,následky srážky vlaku s osobou
+270,Jistebník - Polanka n.O.,20110814012200,20110814060000,následky srážky vlaku s osobou
+86,Zákupy - Mimoň,20110817203600,20110817233600,následky srážky vlaku s osobou
+72,Mělník - Liběchov,20110819134000,20110819155000,následky srážky vlaku s osobou
+260,Rájec-Jestřebí - Blansko,20110821203500,20110821233000,následky srážky vlaku s osobou
+260,Adamov - Blansko,20110821224000,20110822003000,následky srážky vlaku s osobou
+331,Vizovice - Zlín stř.,20110825040000,20110825080000,následky srážky vlaku s osobou
+221,Praha-Uhříněves - Praha-Hostivař,20110825102800,20110825133000,následky srážky vlaku s osobou
+31,Hradec Králové hl.n. - Opatovice n.L.,20110828084500,20110828131400,následky srážky vlaku s osobou
+160,Plzeň hl.n. - Třemošná u Plzně,20110829114500,20110829160000,následky srážky vlaku s osobou
+201,Písek - Písek m.,20110829120800,20110829140800,následky srážky vlaku s osobou
+244,Brno-H.Heršpice - Střelice,20110829175800,20110829185800,následky srážky vlaku s osobou
+240,Brno-H.Heršpice - Střelice,20110829175800,20110829185800,následky srážky vlaku s osobou
+212,Světlá n.Sáz. - Ledeč n.Sáz.,20110903091800,20110903101800,následky srážky vlaku s osobou
+270,Studénka - Suchdol n.O.,20110905095400,20110905120000,následky srážky vlaku s osobou
+320,Návsí (Nawsie) - Č.Těšín,20110905120000,20110905124500,následky srážky vlaku s osobou
+273,Prostějov hl.n. - Prostějov hl.n.,20110905210000,20110905235900,následky srážky vlaku s osobou
+271,Prostějov hl.n. - Prostějov hl.n.,20110905210000,20110905235900,následky srážky vlaku s osobou
+281,Rožnov p.Rad. - Valašské Meziříčí,20110906212800,20110906235000,následky srážky vlaku s osobou
+11,Úvaly - Praha-Běchovice,20110909234200,20110910020000,následky srážky vlaku s osobou
+277,Suchdol n.O. - Fulnek,20110911130600,20110911150000,následky srážky vlaku s osobou
+340,Ostrožská N.Ves - Kunovice zast.,20110911131500,20110911155700,následky srážky vlaku s osobou
+301,Vrbátky - Prostějov hl.n.,20110911204500,20110911230000,následky srážky vlaku s osobou
+20,Újezd u Choc. - Choceň,20110913072700,20110913103000,následky srážky vlaku s osobou
+10,Zámrsk - Choceň,20110915203200,20110915235900,následky srážky vlaku s osobou
+80,Doksy - Okna,20110917053800,20110917073800,následky srážky vlaku s osobou
+330,Nedakonice - Moravský Písek,20110918034300,20110918053000,následky srážky vlaku s osobou
+30,Liberec - Jeřmanice,20110925184000,20110925230000,následky srážky vlaku s osobou
+194,Č.Budějovice - Boršov n.Vlt.,20110927214500,20110927235900,následky srážky vlaku s osobou
+72,Sebuzín - V.Žernoseky,20111001200500,20111001220500,následky srážky vlaku s osobou
+290,Újezd u Uničova - Šternberk,20111002060000,20111002080000,následky srážky vlaku s osobou
+270,Olomouc hl.n. - Bohumín,20111002180500,20111002222000,následky srážky vlaku s osobou
+300,Olomouc hl.n. - Bohumín,20111002180500,20111002222000,následky srážky vlaku s osobou
+300,Kojetín - Chropyně,20111003092500,20111003113000,následky srážky vlaku s osobou
+300,Kojetín - Chropyně,20111003091500,20111003120000,následky srážky vlaku s osobou
+317,D.Benešov - Hlučín,20111003114600,20111003150000,následky srážky vlaku s osobou
+80,Bezděz - Č.Lípa hl.n.,20111003130000,20111003143900,následky srážky vlaku s osobou
+141,Karlovy Vary - Merklín,20111006191000,20111006220000,následky srážky vlaku s osobou
+140,Karlovy Vary - Merklín,20111006191000,20111006220000,následky srážky vlaku s osobou
+90,Děčín hl.n. - Povrly,20111007114600,20111007133000,následky srážky vlaku s osobou
+318,Kravaře ve Sl. - Chuchelná,20111008035000,20111008070000,následky srážky vlaku s osobou
+317,Kravaře ve Sl. - Chuchelná,20111008035000,20111008070000,následky srážky vlaku s osobou
+89,Liberec - Hrádek n.N.,20111009154800,20111009180000,následky srážky vlaku s osobou
+91,Libčice n.Vlt. - Kralupy n.Vlt.,20111010182800,20111010220000,následky srážky vlaku s osobou
+183,Plzeň hl.n. - Plzeň-Valcha,20111011045600,20111011083000,následky srážky vlaku s osobou
+44,Kunčice n.L. - Vrchlabí,20111012105200,20111012135200,následky srážky vlaku s osobou
+190,Ždírec u Plzně - Nepomuk,20111012184900,20111012205000,následky srážky vlaku s osobou
+171,Řevnice - Zadní Třebaň,20111016045500,20111016082500,následky srážky vlaku s osobou
+226,Č.Velenice - Třeboň,20111016081800,20111016110000,následky srážky vlaku s osobou
+232,Lysá n.L. - Milovice,20111017155900,20111017190000,následky srážky vlaku s osobou
+72,Lysá n.L. - Milovice,20111017155900,20111017190000,následky srážky vlaku s osobou
+231,Lysá n.L. - Milovice,20111017155900,20111017190000,následky srážky vlaku s osobou
+171,Praha-Smíchov - Praha-Radotín,20111018202500,20111018233000,následky srážky vlaku s osobou
+238,Ždírec n.Doubr. - Havlíčkův Brod,20111019114000,20111019144500,následky srážky vlaku s osobou
+330,Říkovice - Hulín,20111020132500,20111020153000,následky srážky vlaku s osobou
+270,Drahotuše - Lipník n.Beč.,20111020141700,20111020170000,následky srážky vlaku s osobou
+11,Praha-Běchovice - Praha-Libeň,20111021094500,20111021120000,následky srážky vlaku s osobou
+323,Baška - Frýdek-Místek,20111021112000,20111021140000,následky srážky vlaku s osobou
+11,Velim - Kolín,20111021184000,20111021204000,následky srážky vlaku s osobou
+320,Mosty u Jabl. - Návsí (Nawsie),20111022191300,20111022210000,následky srážky vlaku s osobou
+251,Nedvědice - Žďár n.Sáz.,20111024081300,20111024130000,následky srážky vlaku s osobou
+30,Dvůr Králové n.L. - Jaroměř,20111024172500,20111024203000,následky srážky vlaku s osobou
+331,Otrokovice - Lípa nad Dřevnicí,20111027193500,20111027220000,následky srážky vlaku s osobou
+341,St.Město u U.H. - Uherské Hradiště,20111027200000,20111027220000,následky srážky vlaku s osobou
+330,St.Město u U.H. - Uherské Hradiště,20111027200000,20111027220000,následky srážky vlaku s osobou
+120,Praha-Dejvice - Praha-Veleslavín,20111028174800,20111028211500,následky srážky vlaku s osobou
+30,Liberec - Jeřmanice,20111029142200,20111029162200,následky srážky vlaku s osobou
+270,Hranice na M. - Polom,20111031035000,20111031073000,následky srážky vlaku s osobou
+224,Pelhřimov - N.Cerekev,20111031174500,20111031203000,následky srážky vlaku s osobou
+300,Brno hl.n. - Brno-Chrlice,20111031183000,20111031220000,následky srážky vlaku s osobou
+260,Svitavy - Opatov,20111101075800,20111101100000,následky srážky vlaku s osobou
+340,Nemotice - Kyjov,20111101184600,20111101220000,následky srážky vlaku s osobou
+226,Třeboň - Č.Velenice,20111105055800,20111105080000,následky srážky vlaku s osobou
+270,Hranice na M. - Drahotuše,20111107161500,20111107183000,následky srážky vlaku s osobou
+270,Ostrava-Svinov - Polanka n.O.,20111107173500,20111107214500,následky srážky vlaku s osobou
+140,Kadaň-Prunéřov - Chomutov,20111108195500,20111108223000,následky srážky vlaku s osobou
+250,Kuřim - Brno-Královo Pole,20111109143000,20111109163000,následky srážky vlaku s osobou
+30,Horka u Staré Paky - Mostek,20111110114000,20111110151500,následky srážky vlaku s osobou
+20,Dobšice n.C. - V.Osek,20111111120000,20111111133000,následky srážky vlaku s osobou
+231,Praha-H.Počernice - Mstětice,20111115144600,20111115173000,následky srážky vlaku s osobou
+11,Úvaly - Praha-Běchovice,20111119183200,20111119213200,následky srážky vlaku s osobou
+11,Kolín - Velim,20111120221500,20111121023000,následky srážky vlaku s osobou
+180,Staňkov - Holýšov,20111121174200,20111121210000,následky srážky vlaku s osobou
+180,Staňkov - Holýšov,20111121174200,20111121210000,následky srážky vlaku s osobou
+11,Praha Masarykovo n. - Praha-Libeň,20111122231500,20111123020000,následky srážky vlaku s osobou
+240,Střelice - Brno-H.Heršpice,20111123111500,20111123144500,následky srážky vlaku s osobou
+331,Otrokovice - Zlín stř.,20111123190000,20111123220000,následky srážky vlaku s osobou
+270,Olomouc hl.n. - Grygov,20111125191500,20111125211500,následky srážky vlaku s osobou
+250,Žďár n.Sáz. - Ostrov n.Osl.,20111126110800,20111126133000,následky srážky vlaku s osobou
+340,Veselí n.M. - Kunovice,20111126112900,20111126133000,následky srážky vlaku s osobou
+270,Ostrava-Vítkovice - Polanka n.O.,20001127132200,20111127210000,následky srážky vlaku s osobou
+321,Ostrava-Vítkovice - Polanka n.O.,20001127132200,20111127210000,následky srážky vlaku s osobou
+341,Újezdec u Luh. - Uherský Brod,20111128145500,20111128180000,následky srážky vlaku s osobou
+270,Zábřeh na M. - Zábřeh na M.,20111128193200,20111128223000,následky srážky vlaku s osobou
+270,Lukavice na M. - Zábřeh na M.,20111129101000,20111129121000,následky srážky vlaku s osobou
+31,Stéblová - Opatovice n.L.,20111129114900,20111129134900,následky srážky vlaku s osobou
+174,Hýskov - Beroun-Závodí,20111129212500,20111129232500,následky srážky vlaku s osobou
+142,Karlovy Vary - Karlovy Vary dol.n.,20111129195500,20111129224000,následky srážky vlaku s osobou
+11,Velim - Pečky,20111130183000,20111130213000,následky srážky vlaku s osobou
+90,Povrly - Ústí n.L.hl.n.sever,20111201143500,20111201170000,následky srážky vlaku s osobou
+260,Skalice n.Svit. - Rájec-Jestřebí,20111203114000,20111203144500,následky srážky vlaku s osobou
+270,Brodek u Přer. - Grygov,20111204063000,20111204093000,následky srážky vlaku s osobou
+224,H.Cerekev - Pelhřimov,20111204080000,20111204120000,následky srážky vlaku s osobou
+225,H.Cerekev - Pelhřimov,20111204080000,20111204120000,následky srážky vlaku s osobou
+224,H.Cerekev - Pelhřimov,20111204083000,20111204110000,následky srážky vlaku s osobou
+26,Náchod - Václavice,20111204215400,20111204232000,následky srážky vlaku s osobou
+331,Zlín stř. - Lípa nad Dřevnicí,20111205121500,20111205143000,následky srážky vlaku s osobou
+250,Vranovice - Hrušovany u Brna,20111205130900,20111205153000,následky srážky vlaku s osobou
+250,Hrušovany u Brna - Vranovice,20111205130000,20111205180000,následky srážky vlaku s osobou
+194,Č.Budějovice - Boršov n.Vlt.,20111205144700,20111205203000,následky srážky vlaku s osobou
+196,Č.Budějovice - Boršov n.Vlt.,20111205144700,20111205203000,následky srážky vlaku s osobou
+321,Ostrava-Svinov - Háj ve Sl.,20111205173000,20111205193000,následky srážky vlaku s osobou
+321,Háj ve Sl. - Děhylov,20111205172000,20111205193900,následky srážky vlaku s osobou
+330,Tlumačov - Otrokovice,20111205181000,20111205220000,následky srážky vlaku s osobou
+321,Havířov - Albrechtice u Č.T.,20111208044500,20111208084500,následky srážky vlaku s osobou
+31,Smiřice - Jaroměř,20111208045000,20111208080000,následky srážky vlaku s osobou
+321,Havířov - Opava východ,20111208085300,20111208114500,následky srážky vlaku s osobou
+320,Návsí (Nawsie) - Bystřice (Bystrzyca),20111209201200,20111209231200,následky srážky vlaku s osobou
+320,Návsí (Nawsie) - Návsí (Nawsie),20111210070000,20111210110000,následky srážky vlaku s osobou
+331,Otrokovice - Otrokovice-Trávn.,20111211183000,20111211205000,následky srážky vlaku s osobou
+120,Praha Masarykovo n. - Praha-Bubny,20111212174800,20111212200000,následky srážky vlaku s osobou
+91,Praha Masarykovo n. - Praha-Bubny,20111212174800,20111212200000,následky srážky vlaku s osobou
+221,Praha-Vršovice - Praha-Hostivař,20111213063500,20111213090000,následky srážky vlaku s osobou
+179,Cheb - Marktredwitz,20111213173500,20111213214500,následky srážky vlaku s osobou
+331,Otrokovice - Zlín stř.,20111216163500,20111216183500,následky srážky vlaku s osobou
+10,Praha hl.n. - Č.Třebová,20111217063000,20111217112000,následky srážky vlaku s osobou
+11,Praha hl.n. - Č.Třebová,20111217063000,20111217112000,následky srážky vlaku s osobou
+160,Plzeň hl.n. - Třemošná u Plzně,20111218104500,20111218134500,následky srážky vlaku s osobou
+250,Brno hl.n. - Kuřim,20111219123000,20111219145900,následky srážky vlaku s osobou
+270,Hranice na M. - Drahotuše,20111221084500,20111221110000,následky srážky vlaku s osobou
+300,Ivanovice na H. - Nezamyslice,20111222070000,20111222093000,následky srážky vlaku s osobou
+321,Havířov - Ostrava-Svinov,20111223101500,20111223123000,následky srážky vlaku s osobou
+140,Stráž n.Ohří - Vojkovice n.Ohří,20111224045000,20111224070000,následky srážky vlaku s osobou
+270,Rudoltice v Č. - Krasíkov,20111224153500,20111224180000,následky srážky vlaku s osobou
+70,Chotětov - Mladá Boleslav hl.n.,20111224183000,20111224223000,následky srážky vlaku s osobou
+11,Kolín - Praha hl.n.,20111228071500,20111228103000,následky srážky vlaku s osobou
+10,Kolín - Praha hl.n.,20111228071500,20111228103000,následky srážky vlaku s osobou
+270,Kolín - Praha hl.n.,20111228071500,20111228103000,následky srážky vlaku s osobou
+341,Újezdec u Luh. - Luhačovice,20111228104300,20111228114500,následky srážky vlaku s osobou
+10,Pardubice hl.n. - Kostěnice,20111229070500,20111229093000,následky srážky vlaku s osobou
+250,Ostrov n.Osl. - Sázava u Žď.,20111230133000,20111230153000,následky srážky vlaku s osobou
+321,Ostrava-Vítkovice - Ostrava-Kunčice,20111230202600,20111230233000,následky srážky vlaku s osobou
+231,Praha-H.Počernice - Mstětice,20111231171300,20111231203000,následky srážky vlaku s osobou
+321,Havířov - Albrechtice u Č.T.,20120101055000,20120101083500,následky srážky vlaku s osobou
+31,Opatovice n.L. - Stéblová,20120101083000,20120101113000,následky srážky vlaku s osobou
+70,Praha-Čakovice - Měšice u Phy,20120102111500,20120102133000,následky srážky vlaku s osobou
+321,Albrechtice u Č.T. - Č.Těšín,20120103110500,20120103143000,následky srážky vlaku s osobou
+303,Kroměříž - Kojetín,20120104094900,20120104120000,následky srážky vlaku s osobou
+31,Hradec Králové hl.n. - Opatovice n.L.,20120104191000,20120104215000,následky srážky vlaku s osobou
+322,Č.Těšín - Hnojník,20120104230400,20120105010400,následky srážky vlaku s osobou
+91,Praha hl.n. - Vraňany,20120108130600,20120108200000,následky srážky vlaku s osobou
+90,Praha hl.n. - Vraňany,20120108130600,20120108200000,následky srážky vlaku s osobou
+260,Praha hl.n. - Vraňany,20120108130600,20120108200000,následky srážky vlaku s osobou
+250,Praha hl.n. - Vraňany,20120108130600,20120108200000,následky srážky vlaku s osobou
+10,Praha hl.n. - Vraňany,20120108130600,20120108200000,následky srážky vlaku s osobou
+318,Kravaře ve Sl. - Chuchelná,20120110135000,20120110160000,následky srážky vlaku s osobou
+317,Kravaře ve Sl. - Chuchelná,20120110135000,20120110160000,následky srážky vlaku s osobou
+301,Prostějov hl.n. - Nezamyslice,20120110170000,20120110120000,následky srážky vlaku s osobou
+130,Chomutov - Kyjice,20120112170000,20120112190000,následky srážky vlaku s osobou
+130,Kyjice - Chomutov,20120112170800,20120112190000,následky srážky vlaku s osobou
+26,Týniště n.Orl. - Meziměstí,20120114144500,20120114180000,následky srážky vlaku s osobou
+20,Týniště n.Orl. - Meziměstí,20120114144500,20120114180000,následky srážky vlaku s osobou
+320,Bohumín - Čadca,20120116070000,20120116110000,následky srážky vlaku s osobou
+10,Bohumín - Čadca,20120116070000,20120116110000,následky srážky vlaku s osobou
+270,Bohumín - Čadca,20120116070000,20120116110000,následky srážky vlaku s osobou
+11,Bohumín - Čadca,20120116070000,20120116110000,následky srážky vlaku s osobou
+292,Jeseník - Jindřichov ve Sl.,20120116150000,20120116170000,následky srážky vlaku s osobou
+260,Brno hl.n. - Č.Třebová,20120116174000,20120116191500,následky srážky vlaku s osobou
+330,Přerov - Říkovice,20120116172000,20120116194500,následky srážky vlaku s osobou
+183,Plzeň hl.n. - Plzeň-Valcha,20120117043000,20120117100000,následky srážky vlaku s osobou
+130,Bílina - Chotějovice,20120117103500,20120117123500,následky srážky vlaku s osobou
+301,Olomouc hl.n. - Blatec,20120120033000,20120120053000,následky srážky vlaku s osobou
+171,Praha-Smíchov - Praha-Radotín,20120120102000,20120120130000,následky srážky vlaku s osobou
+270,Polom - Hranice na M.,20120122081800,20120122123000,následky srážky vlaku s osobou
+20,Chlumec n.C. - N.Město n.C.,20120123183500,20120124000000,následky srážky vlaku s osobou
+231,Praha Masarykovo n. - Praha-Vysočany,20120124143000,20120124170000,následky srážky vlaku s osobou
+231,Praha Masarykovo n. - Praha-Vysočany,20120124143000,20120124170000,následky srážky vlaku s osobou
+91,Praha Masarykovo n. - Praha-Vysočany,20120124143000,20120124170000,následky srážky vlaku s osobou
+70,Praha Masarykovo n. - Praha-Vysočany,20120124143000,20120124170000,následky srážky vlaku s osobou
+90,Hněvice - Roudnice n.L.,20120124144900,20120124174900,následky srážky vlaku s osobou
+323,Frýdek-Místek - Frýdek-Místek,20120124202700,20120124223700,následky srážky vlaku s osobou
+341,Uherský Brod - Uherský Brod,20120124210800,20120124232000,následky srážky vlaku s osobou
+238,Chrudim - Pardubice hl.n.,20120124212600,20120124223000,následky srážky vlaku s osobou
+231,Praha-Vysočany - Praha-H.Počernice,20120126124500,20120126154500,následky srážky vlaku s osobou
+10,Pardubice hl.n. - Kostěnice,20120131190000,20120131220000,následky srážky vlaku s osobou
+275,Olomouc-Řepčín - Olomouc hl.n.,20120202201000,20120202220000,následky srážky vlaku s osobou
+300,Sokolnice-Telnice - Brno-Chrlice,20120206160300,20120206180000,následky srážky vlaku s osobou
+87,Litoměřice hor.n. - Liběšice,20120207063600,20120207090000,následky srážky vlaku s osobou
+11,Praha-Běchovice - Úvaly,20120210140900,20120210163000,následky srážky vlaku s osobou
+11,Praha-Běchovice - Úvaly,20120210135000,20120210175000,následky srážky vlaku s osobou
+42,Martinice v Krk. - Rokytnice n.Jiz.,20120216185900,20120216210000,následky srážky vlaku s osobou
+321,Ostrava-Svinov - Opava východ,20120218130000,20120218163000,následky srážky vlaku s osobou
+321,Ostrava-Svinov - Opava východ,20120218130000,20120218163000,následky srážky vlaku s osobou
+250,Břeclav - Podivín,20120218192400,20120218212000,následky srážky vlaku s osobou
+250,Brno hl.n. - Břeclav,20120218193000,20120218223000,následky srážky vlaku s osobou
+260,Brno hl.n. - Břeclav,20120218193000,20120218223000,následky srážky vlaku s osobou
+31,Opatovice n.L. - Stéblová,20120220120000,20120220153000,následky srážky vlaku s osobou
+120,Praha Masarykovo n. - Praha-Dejvice,20120220151000,20120220171000,následky srážky vlaku s osobou
+130,Bílina - Most,20120220184000,20120220211500,následky srážky vlaku s osobou
+91,Roztoky u Prahy - Libčice n.Vlt.,20120221145000,20120221180000,následky srážky vlaku s osobou
+260,Blansko - Rájec-Jestřebí,20120222131500,20120222151500,následky srážky vlaku s osobou
+91,Vraňany - Praha hl.n.,20120223195200,20120223213000,následky srážky vlaku s osobou
+90,Vraňany - Praha hl.n.,20120223195200,20120223213000,následky srážky vlaku s osobou
+300,Nezamyslice - Vyškov na M.,20120225093000,20120225120000,následky srážky vlaku s osobou
+250,Kúty - Břeclav,20120227105000,20120227130000,následky srážky vlaku s osobou
+270,Polom - Suchdol n.O.,20120228210000,20120228230000,následky srážky vlaku s osobou
+10,Záboří n.L. - Řečany n.L.,20120301184000,20120301223000,následky srážky vlaku s osobou
+11,Velim - Kolín,20120305080500,20120305110000,následky srážky vlaku s osobou
+11,Praha-Holešovice - Praha-Libeň,20120305105500,20120305130000,následky srážky vlaku s osobou
+91,Praha-Holešovice - Praha-Libeň,20120305105500,20120305130000,následky srážky vlaku s osobou
+32,Jaroměř - Trutnov hl.n.,20120305162000,20120305190000,následky srážky vlaku s osobou
+31,Jaroměř - Trutnov hl.n.,20120305162000,20120305190000,následky srážky vlaku s osobou
+310,Opava východ - Skrochovice,20120306043200,20120306070000,následky srážky vlaku s osobou
+170,Chrást u Plzně - Plzeň hl.n.,20120306092600,20120306114500,následky srážky vlaku s osobou
+330,Otrokovice - Huštěnovice,20120309121300,20120309160000,následky srážky vlaku s osobou
+260,Blansko - Rájec-Jestřebí,20120312160500,20120312190000,následky srážky vlaku s osobou
+321,Albrechtice u Č.T. - Havířov,20120315071000,20120315091000,následky srážky vlaku s osobou
+241,Grešlové Mýto - Okříšky,20120318194500,20120318210000,následky srážky vlaku s osobou
+320,Mosty u Jabl. - Čadca,20120319211800,20120319221800,následky srážky vlaku s osobou
+190,Plzeň-Koterov - Plzeň hl.n.,20120321141500,20120321170000,následky srážky vlaku s osobou
+81,Č.Lípa hl.n. - Krásná Lípa,20120324113000,20120324133000,následky srážky vlaku s osobou
+70,Měšice u Phy - Neratovice,20120326234000,20120327020000,následky srážky vlaku s osobou
+91,Roztoky u Prahy - Praha-Bubeneč,20120406190000,20120406210000,následky srážky vlaku s osobou
+270,Č.Třebová - Bohumín,20120406193000,20120406221500,následky srážky vlaku s osobou
+10,Č.Třebová - Bohumín,20120406193000,20120406221500,následky srážky vlaku s osobou
+330,Lužice - Moravská N.Ves,20120407050000,20120407060000,následky srážky vlaku s osobou
+310,Hlubočky - Hrubá Voda,20120408042800,20120408075000,následky srážky vlaku s osobou
+72,Všetaty - Mělník,20120410165500,20120410194500,následky srážky vlaku s osobou
+11,Úvaly - Č.Brod,20120411100900,20120411130000,následky srážky vlaku s osobou
+11,Praha-Libeň - Praha-Běchovice,20120412160000,20120412185000,následky srážky vlaku s osobou
+250,Brno-Královo Pole - Kuřim,20120412173800,20120412200000,následky srážky vlaku s osobou
+270,Grygov - Olomouc hl.n.,20120416164000,20120416184000,následky srážky vlaku s osobou
+130,Ústí n.L.západ - Chabařovice,20120418231200,20120419010000,následky srážky vlaku s osobou
+250,Kúty - Břeclav,20120419110000,20120419150000,následky srážky vlaku s osobou
+270,Kúty - Břeclav,20120419110000,20120419150000,následky srážky vlaku s osobou
+330,Kúty - Břeclav,20120419110000,20120419150000,následky srážky vlaku s osobou
+250,Břeclav - Podivín,20120421000000,20120421023000,následky srážky vlaku s osobou
+171,Praha hl.n. - Praha-Smíchov,20120422204500,20120422231500,následky srážky vlaku s osobou
+32,Jaroměř - Starkoč,20120423045500,20120423080000,následky srážky vlaku s osobou
+30,Jaroměř - Starkoč,20120423045500,20120423080000,následky srážky vlaku s osobou
+232,Lysá n.L. - Milovice,20120424120000,20120424140000,následky srážky vlaku s osobou
+231,Lysá n.L. - Milovice,20120424120000,20120424140000,následky srážky vlaku s osobou
+72,Lysá n.L. - Milovice,20120424120000,20120424140000,následky srážky vlaku s osobou
+323,Valašské Meziříčí - Hostašovice,20120426202700,20120426223000,následky srážky vlaku s osobou
+11,Kolín - Velim,20120429120800,20120429160000,následky srážky vlaku s osobou
+180,Vejprnice - Nýřany,20120504153500,20120504180000,následky srážky vlaku s osobou
+270,Přerov - Prosenice,20120504084000,20120504110000,následky srážky vlaku s osobou
+301,Prostějov hl.n. - Vrbátky,20120505213000,20120506010000,následky srážky vlaku s osobou
+120,Praha-Veleslavín - Praha-Ruzyně,20120509162600,20120509190000,následky srážky vlaku s osobou
+10,Kostěnice - Pardubice hl.n.,20120510044000,20120510080000,následky srážky vlaku s osobou
+230,Čáslav - Golčův Jeníkov,20120511141000,20120511164000,následky srážky vlaku s osobou
+72,Sebuzín - V.Žernoseky,20120512103300,20120512130000,následky srážky vlaku s osobou
+140,Chodov - Karlovy Vary,20120512105000,20120512140000,následky srážky vlaku s osobou
+210,Jílové u Prahy - Davle,20120514200800,20120514230000,následky srážky vlaku s osobou
+171,Dobřichovice - Praha-Radotín,20120515042700,20120515060000,následky srážky vlaku s osobou
+98,Děčín st.hr. - Děčín hl.n.,20120517075000,20120517094000,následky srážky vlaku s osobou
+11,Úvaly - Č.Brod,20120517103000,20120517140000,následky srážky vlaku s osobou
+36,Tanvald - Smržovka,20120518063800,20120518093800,následky srážky vlaku s osobou
+250,Rajhrad - Vojkovice n.Svr.,20120518173200,20120518200000,následky srážky vlaku s osobou
+72,Sebuzín - V.Žernoseky,20120518192000,20120518212000,následky srážky vlaku s osobou
+30,Liberec - Jeřmanice,20000519093700,20120519133000,následky srážky vlaku s osobou
+340,Ostrožská N.Ves - Ostrožská N.Ves,20120519184500,20120519194500,následky srážky vlaku s osobou
+171,Řevnice - Praha hl.n.,20120521182800,20120521192800,následky srážky vlaku s osobou
+320,Bohumín - Čadca,20120522051000,20120522100000,následky srážky vlaku s osobou
+270,Bohumín - Čadca,20120522051000,20120522100000,následky srážky vlaku s osobou
+10,Bohumín - Čadca,20120522051000,20120522100000,následky srážky vlaku s osobou
+292,Jindřichov ve Sl. - Krnov,20120524205000,20120524220000,následky srážky vlaku s osobou
+130,Teplice v Č. - Bohosudov,20120528135800,20120528170000,následky srážky vlaku s osobou
+341,Uherský Brod - Újezdec u Luh.,20120528143500,20120528180000,následky srážky vlaku s osobou
+320,Třinec (Trzyniec) - Bystřice (Bystrzyca),20120530132000,20120530160000,následky srážky vlaku s osobou
+16,Holice - Moravany,20120530174300,20120530200000,následky srážky vlaku s osobou
+140,Karlovy Vary - K.Vary-Dvory,20120602124500,20120602144500,následky srážky vlaku s osobou
+270,Polanka n.O. - Jistebník,20120608011500,20120608031500,následky srážky vlaku s osobou
+292,Hanušovice - Jindřichov na M.,20120609060600,20120609080000,následky srážky vlaku s osobou
+244,Moravské Bránice - Ivančice,20120610050000,20120610083000,následky srážky vlaku s osobou
+250,Brno hl.n. - Kúty,20120612024500,20120612044500,následky srážky vlaku s osobou
+260,Brno hl.n. - Kúty,20120612024500,20120612044500,následky srážky vlaku s osobou
+300,Brno hl.n. - Vyškov na M.,20120612222300,20120612235900,následky srážky vlaku s osobou
+130,Ústí n.L.západ - Chabařovice,20120613070800,20120613093000,následky srážky vlaku s osobou
+260,Č.Třebová - Svitavy,20120613142500,20120613163000,následky srážky vlaku s osobou
+310,Krnov - Skrochovice,20120615063000,20120615101000,následky srážky vlaku s osobou
+320,Čadca - Bohumín,20120616004500,20120616030000,následky srážky vlaku s osobou
+183,Přeštice - Chlumčany u Dobřan,20120616043000,20120616090000,následky srážky vlaku s osobou
+30,Horka u Staré Paky - Mostek,20120616094000,20120616143000,následky srážky vlaku s osobou
+130,Chomutov - Kyjice,20120617204500,20120617224500,následky srážky vlaku s osobou
+246,Břeclav - Boří les,20120618070000,20120618100000,následky srážky vlaku s osobou
+301,Vrbátky - Prostějov hl.n.,20120620001600,20120620020000,následky srážky vlaku s osobou
+171,Praha-Radotín - Dobřichovice,20120621044000,20120621071000,následky srážky vlaku s osobou
+260,Blansko - Rájec-Jestřebí,20120623013000,20120623033000,následky srážky vlaku s osobou
+120,Kladno - Praha Masarykovo n.,20120623060000,20120623083000,následky srážky vlaku s osobou
+93,Kladno - Praha Masarykovo n.,20120623060000,20120623083000,následky srážky vlaku s osobou
+290,Uničov - Újezd u Uničova,20120624123300,20120624153300,následky srážky vlaku s osobou
+221,Benešov u Prahy - Čerčany,20120625110500,20120625143000,následky srážky vlaku s osobou
+300,Vyškov na M. - Ivanovice na H.,20120625120200,20120625140000,následky srážky vlaku s osobou
+81,Děčín hl.n. - Děčín východ,20120630012500,20120630030000,následky srážky vlaku s osobou
+130,Bohosudov - Teplice v Č.,20120630070800,20120630090000,následky srážky vlaku s osobou
+10,Přelouč - Pardubice hl.n.,20120708144700,20120708170000,následky srážky vlaku s osobou
+202,Sudoměřice u Bech. - Malšice,20120708204100,20120708234100,následky srážky vlaku s osobou
+260,Č.Třebová - Opatov,20120710164500,20120710194500,následky srážky vlaku s osobou
+142,Karlovy Vary - St.Role,20120711205000,20120711235900,následky srážky vlaku s osobou
+140,Karlovy Vary - St.Role,20120711205000,20120711235900,následky srážky vlaku s osobou
+323,Lískovec u Frýd. - Frýdek-Místek,20120712190000,20120712210000,následky srážky vlaku s osobou
+130,Chomutov - Kyjice,20120713165000,20120713200000,následky srážky vlaku s osobou
+11,Praha-Vršovice - Praha-Běchovice,20120715002000,20120715043000,následky srážky vlaku s osobou
+90,Povrly - Ústí n.L.hl.n.sever,20120715201900,20120715233000,následky srážky vlaku s osobou
+170,Cheb - Lipová u Chebu,20120717213000,20120718003000,následky srážky vlaku s osobou
+231,Mstětice - Praha-H.Počernice,20120719090000,20120719114000,následky srážky vlaku s osobou
+130,Kyjice - Chomutov,20120720040000,20120720063000,následky srážky vlaku s osobou
+260,Rájec-Jestřebí - Skalice n.Svit.,20120721050400,20120721100000,následky srážky vlaku s osobou
+250,Sklené n.Osl. - Ostrov n.Osl.,20120721113000,20120721133000,následky srážky vlaku s osobou
+36,Liberec - Vesec u Liberce,20120721223900,20120722015000,následky srážky vlaku s osobou
+246,Břeclav - Hrušovany n.Jev.,20120722202700,20120722233000,následky srážky vlaku s osobou
+298,Osoblaha - Bohušov,20120723180700,20120723203000,následky srážky vlaku s osobou
+210,Jílové u Prahy - Týnec n.Sáz.,20120723223400,20120724010000,následky srážky vlaku s osobou
+70,Neratovice - Všetaty,20120725092500,20120725121500,následky srážky vlaku s osobou
+250,Kúty - Břeclav,20120729105000,20120729130000,následky srážky vlaku s osobou
+330,St.Město u U.H. - Huštěnovice,20120729213000,20120729235900,následky srážky vlaku s osobou
+340,Uherský Ostroh - Ostrožská N.Ves,20120731141300,20120731170000,následky srážky vlaku s osobou
+180,Holýšov - Stod,20120801102800,20120801130000,následky srážky vlaku s osobou
+171,Praha hl.n. - Praha-Smíchov,20120801141100,20120801173000,následky srážky vlaku s osobou
+321,Ostrava-Svinov - Ostrava-Vítkovice,20120804041000,20120804070000,následky srážky vlaku s osobou
+90,Hněvice - Roudnice n.L.,20120807133000,20120807173000,následky srážky vlaku s osobou
+270,Ostrava-Svinov - Polanka n.O.,20120807190200,20120807213000,následky srážky vlaku s osobou
+98,D.Žleb - Děčín-Prostř.Žleb,20120808061500,20120808100000,následky srážky vlaku s osobou
+91,Praha-Holešovice - Praha hl.n.,20120808220400,20120808235900,následky srážky vlaku s osobou
+220,Č.Budějovice - Hluboká n.Vlt.-Zám.,20120809050600,20120809090000,následky srážky vlaku s osobou
+221,Říčany - Strančice,20120809175200,20120809185200,následky srážky vlaku s osobou
+161,Rakovník západ - Senomaty,20120810225800,20120811010000,následky srážky vlaku s osobou
+260,Skalice n.Svit. - Letovice,20120811191000,20120811211000,překážka na trati
+36,Jablonec n.N. - Smržovka,20120812072400,20120812092400,následky srážky vlaku s osobou
+18,Choceň - Vys.Mýto m.,20120816180100,20120816224000,následky srážky vlaku s osobou
+47,Trutnov hl.n. - Radvanice,20120817082100,20120817110000,následky srážky vlaku s osobou
+32,Trutnov hl.n. - Radvanice,20120817082100,20120817110000,následky srážky vlaku s osobou
+30,Turnov - Malá Skála,20120818064500,20120818104000,následky srážky vlaku s osobou
+32,Rtyně v Podkrk. - Malé Svatoňovice,20120820130500,20120820150500,následky srážky vlaku s osobou
+11,Úvaly - Č.Brod,20120821111800,20120821135500,ostatní
+241,Jaroměřice n.R. - Okříšky,20120822120000,20120822140000,následky srážky vlaku s osobou
+30,St.Paka - Liberec,20120825052000,20120825072000,následky srážky vlaku s osobou
+40,St.Paka - Liberec,20120825052000,20120825072000,následky srážky vlaku s osobou
+70,Chotětov - Mladá Boleslav hl.n.,20120827105000,20120827130000,následky srážky vlaku s osobou
+240,Tetčice - Zastávka u Brna,20120828050000,20120828073000,následky srážky vlaku s osobou
+250,Přibyslav - Praha hl.n.,20120828080000,20120828103000,následky srážky vlaku s osobou
+196,Kaplice - Omlenice,20120830082600,20120830110000,následky srážky vlaku s osobou
+203,Březnice - Bělčice,20120830095600,20120830121500,následky srážky vlaku s automobilem
+250,Modřice - Hrušovany u Brna,20120831062300,20120831093000,následky srážky vlaku s osobou
+270,Prosenice - Brodek u Přer.,20120831190500,20120831210500,následky srážky vlaku s osobou
+90,Roudnice n.L. - Hněvice,20120901225000,20120902010000,následky srážky vlaku s osobou
+250,Řikonín - Tišnov,20120902203200,20120902235900,následky srážky vlaku s osobou
+260,Adamov - Brno hl.n.,20120902220000,20120903010000,následky srážky vlaku s osobou
+170,Plzeň-Jižní př. - Plzeň-Křimice,20120903055000,20120903090000,následky srážky vlaku s osobou
+270,Polanka n.O. - Jistebník,20120905192000,20120905230000,následky srážky vlaku s osobou
+227,Třešť - Sedlejov,20120908090000,20120908120000,následky srážky vlaku s osobou
+310,Skrochovice - Opava západ,20120908202800,20120908231500,následky srážky vlaku s osobou
+244,Ivančice - Střelice,20120908215400,20120909014500,následky srážky vlaku s osobou
+270,Moravičany - Mohelnice,20120909171200,20120909210000,následky srážky vlaku s osobou
+321,Havířov - Albrechtice u Č.T.,20120910052000,20120910090000,následky srážky vlaku s osobou
+231,Nymburk hl.n. - Poděbrady,20120910123800,20120910180000,následky srážky vlaku s osobou
+250,Brno-Královo Pole - Kuřim,20120911195400,20120911230000,následky srážky vlaku s osobou
+221,Praha-Vršovice - Praha-Hostivař,20120911223000,20120912013000,následky srážky vlaku s osobou
+320,Třinec (Trzyniec) - Bystřice (Bystrzyca),20120912083200,20120912130000,následky srážky vlaku s osobou
+310,Skrochovice - Krnov,20120913232000,20120914020000,následky srážky vlaku s osobou
+200,Příbram - Milín,20120914102000,20120914131000,následky srážky vlaku s osobou
+221,Praha-Hostivař - Praha-Vršovice,20120914141000,20120914160000,následky srážky vlaku s osobou
+244,Miroslav - Hrušovany n.Jev.,20120914183100,20120914211000,následky srážky vlaku s osobou
+148,Frant.Lázně - Cheb,20120914214000,20120914235900,následky srážky vlaku s osobou
+91,Kralupy n.Vlt. - Nelahozeves,20120915031500,20120915065000,následky srážky vlaku s osobou
+300,Vyškov na M. - Ivanovice na H.,20120917140000,20120917173000,ostatní
+343,Sudoměřice n.M. - Veselí n.M.,20120917165900,20120917200000,následky srážky vlaku s osobou
+323,Baška - Frýdek-Místek,20120918143800,20120918181500,následky srážky vlaku s osobou
+330,Huštěnovice - Napajedla,20120918152000,20120918184500,následky srážky vlaku s osobou
+10,Č.Třebová - Kolín,20120919143200,20120919153200,následky srážky vlaku s osobou
+270,Č.Třebová - Kolín,20120919143200,20120919153200,následky srážky vlaku s osobou
+170,Cheb - Lipová u Chebu,20120919193500,20120919230000,následky srážky vlaku s osobou
+93,Kladno - Kladno-Ostrovec,20120920223000,20120921010000,následky srážky vlaku s osobou
+20,Chlumec n.C. - N.Město n.C.,20120921030000,20120921061500,následky srážky vlaku s osobou
+41,Rovensko p.Troskami - Turnov,20120925163300,20120925200000,následky srážky vlaku s osobou
+220,Č.Budějovice - Hluboká n.Vlt.-Zám.,20121003153500,20121003160000,následky srážky vlaku s osobou
+190,Č.Budějovice - Hluboká n.Vlt.-Zám.,20121003153500,20121003160000,následky srážky vlaku s osobou
+190,Č.Budějovice - Dívčice,20121003161000,20121003174500,následky srážky vlaku s osobou
+130,Bílina - Oldřichov u Duch.,20121004055000,20121004082000,následky srážky vlaku s osobou
+280,Valašské Meziříčí - Jablůnka,20121004164500,20121004200000,následky srážky vlaku s osobou
+11,Č.Brod - Poříčany,20121005211000,20121005234000,následky srážky vlaku s osobou
+220,Soběslav - Roudná,20121006055800,20121006090000,následky srážky vlaku s osobou
+323,Lískovec u Frýd. - Frýdek-Místek,20121006132000,20001006173000,následky srážky vlaku s osobou
+282,Halenkov - Karolinka,20001006134900,20121006183000,následky srážky vlaku s osobou
+176,Radnice - Chrást u Plzně,20121006210000,20121007003000,následky srážky vlaku s osobou
+170,Radnice - Chrást u Plzně,20121006210000,20121007003000,následky srážky vlaku s osobou
+170,Radnice - Chrást u Plzně,20121006210000,20121007003000,následky srážky vlaku s osobou
+260,Letovice - Skalice n.Svit.,20121006210000,20121006233000,následky srážky vlaku s osobou
+270,Polom - Suchdol n.O.,20121007125000,20121007150000,následky srážky vlaku s osobou
+320,Návsí (Nawsie) - Bystřice (Bystrzyca),20121008111500,20121008121500,překážka na trati
+72,Litoměřice m. - Polepy,20121011160900,20121011170900,následky srážky vlaku s osobou
+10,Pardubice hl.n. - Přelouč,20121013064500,20121013093000,následky srážky vlaku s osobou
+330,Hodonín - Hodonín,20121013183000,20121013203000,následky srážky vlaku s osobou
+273,Senice na H. - Drahanovice,20121013215600,20121014010000,následky srážky vlaku s osobou
+10,Přelouč - Pardubice hl.n.,20121016212000,20121016230000,následky srážky vlaku s osobou
+130,Oldřichov u Duch. - Bílina,20121017164500,20121017190000,následky srážky vlaku s osobou
+244,Moravské Bránice - Hrušovany n.Jev.,20121018140300,20121018170000,následky srážky vlaku s osobou
+280,Hranice na M. - Vsetín,20121018183000,20121018223000,následky srážky vlaku s osobou
+270,Hranice na M. - Vsetín,20121018183000,20121018223000,následky srážky vlaku s osobou
+10,Hranice na M. - Vsetín,20121018183000,20121018223000,následky srážky vlaku s osobou
+80,Doksy - Jestřebí,20121019144000,20121019172000,následky srážky vlaku s osobou
+10,Zámrsk - Choceň,20121019153300,20121019180000,následky srážky vlaku s osobou
+231,Nymburk hl.n. - Poděbrady,20121019180500,20121020000100,následky srážky vlaku s osobou
+320,Karviná hl.n. - Louky n.Olší,20121023121000,20121023150000,následky srážky vlaku s osobou
+80,Bakov n.Jiz. - Č.Lípa hl.n.,20121024195000,20121024215500,následky srážky vlaku s osobou
+190,Plzeň hl.n. - Plzeň-Koterov,20121026181700,20121026201700,následky srážky vlaku s osobou
+183,Plzeň hl.n. - Plzeň-Koterov,20121026181700,20121026201700,následky srážky vlaku s osobou
+180,Plzeň hl.n. - Plzeň-Koterov,20121026181700,20121026201700,následky srážky vlaku s osobou
+160,Plzeň hl.n. - Plzeň-Koterov,20121026181700,20121026201700,následky srážky vlaku s osobou
+170,Plzeň hl.n. - Plzeň-Koterov,20121026181700,20121026201700,následky srážky vlaku s osobou
+10,Č.Třebová - Praha hl.n.,20121027054000,20121027090000,následky srážky vlaku s osobou
+260,Č.Třebová - Praha hl.n.,20121027054000,20121027090000,následky srážky vlaku s osobou
+10,Moravany - Uhersko,20121028021500,20121028063000,následky srážky vlaku s osobou
+322,Hnojník - Č.Těšín,20121028203500,20121028225000,následky srážky vlaku s osobou
+130,Bílina - Oldřichov u Duch.,20121029064000,20121029105000,následky srážky vlaku s osobou
+221,Praha-Hostivař - Praha-Vršovice,20121031222000,20121101013000,překážka na trati
+260,Rájec-Jestřebí - Blansko,20121101023300,20121101033000,překážka na trati
+323,Kunčice p.Ondř. - Frýdlant n.Ostr.,20121101171300,20121101203000,následky srážky vlaku s osobou
+224,Tábor - Chýnov,20121102053000,20121102083000,následky srážky vlaku s osobou
+221,Praha-Vršovice - Praha-Hostivař,20121102190400,20121102213000,následky srážky vlaku s osobou
+221,Praha-Hostivař - Praha-Vršovice,20121103172500,20121103200000,následky srážky vlaku s osobou
+330,Moravský Písek - Nedakonice,20121104191700,20121104223000,následky srážky vlaku s osobou
+210,Davle - Jílové u Prahy,20121106174400,20121106200000,následky srážky vlaku s osobou
+330,Hodonín - Lužice,20121109084000,20121109104000,následky srážky vlaku s osobou
+20,Hr.Králové-Sl.Př. - Hradec Králové hl.n.,20121109215700,20121110004500,následky srážky vlaku s osobou
+300,Brno hl.n. - Sokolnice-Telnice,20121113043000,20121113061500,ostatní
+321,Ostrava-Bartovice - Havířov,20121114221000,20121114235900,následky srážky vlaku s osobou
+170,Chrást u Plzně - Plzeň hl.n.,20121115174500,20121115200000,následky srážky vlaku s osobou
+200,Březnice - Tochovice,20121115195400,20121115221500,následky srážky vlaku s osobou
+10,Kostěnice - Pardubice hl.n.,20121115221500,20121116010000,následky srážky vlaku s osobou
+184,Tachov - St.Sedliště,20121122161100,20121122190000,následky srážky vlaku s osobou
+11,Úvaly - Č.Brod,20121123141000,20121123181500,následky srážky vlaku s osobou
+10,Pardubice hl.n. - Přelouč,20121123170700,20121123184500,následky srážky vlaku s osobou
+10,Pardubice hl.n. - Přelouč,20121123170000,20121123200000,následky srážky vlaku s osobou
+321,Ostrava-Bartovice - Havířov,20121123172100,20121123213000,následky srážky vlaku s osobou
+320,Bystřice (Bystrzyca) - Třinec (Trzyniec),20121124035700,20121124063000,následky srážky vlaku s osobou
+0,,20121126141300,20121126170000,následky srážky vlaku s osobou
+10,Ústí n.Orl. - Dlouhá Třebová,20121126140000,20121126180000,následky srážky vlaku s osobou
+11,Praha-Libeň - Praha-Běchovice,20121127143500,20121127153500,následky srážky vlaku s osobou
+90,Prackovice n.L. - Ústí n.L.hl.n.os.n.,20121128102500,20121128122500,následky srážky vlaku s osobou
+10,Pardubice hl.n. - Kostěnice,20121128164000,20121128193000,následky srážky vlaku s osobou
+183,Klatovy - Švihov u Klatov,20121129172000,20121129192500,následky srážky vlaku s osobou
+320,Třinec (Trzyniec) - Bystřice (Bystrzyca),20121202214000,20121203005000,následky srážky vlaku s osobou
+250,Brno-Královo Pole - Kuřim,20121203114000,20121203153000,následky srážky vlaku s osobou
+323,Frýdek-Místek - Lískovec u Frýd.,20121204070200,20121204110000,následky srážky vlaku s osobou
+90,Povrly - Děčín hl.n.,20121205011000,20121205055000,následky srážky vlaku s osobou
+290,Libina - Šumperk,20121205181500,20121205213000,následky srážky vlaku s osobou
+270,Ostrava hl.n. - Bohumín,20121205233000,20121206013000,následky srážky vlaku s osobou
+26,Hronov - Náchod,20121206170000,20121206200000,následky srážky vlaku s osobou
+11,Kolín - Velim,20121210110300,20121210125000,následky srážky vlaku s osobou
+122,Pha-Smích.Na Knížecí - Praha-Zličín,20121212182300,20121212210000,následky srážky vlaku s osobou
+171,Praha-Smíchov - Praha-Radotín,20121213055000,20121213075000,následky srážky vlaku s osobou
+221,Benešov u Prahy - Čerčany,20121214130700,20121214160000,následky srážky vlaku s osobou
+260,Adamov - Blansko,20121218062500,20121218083000,následky srážky vlaku s osobou
+194,Č.Krumlov - Kájov,20121218150200,20121218190000,následky srážky vlaku s osobou
+30,Železný Brod - Malá Skála,20121218225500,20121219015500,následky srážky vlaku s osobou
+10,Pardubice hl.n. - Kostěnice,20121221173500,20121221203000,následky srážky vlaku s osobou
+331,Otrokovice - Zlín stř.,20121222074000,20121222100000,následky srážky vlaku s osobou
+270,Otrokovice - Zlín stř.,20121222074000,20121222100000,následky srážky vlaku s osobou
+244,Moravské Bránice - Bohutice,20121223221400,20121224001400,následky srážky vlaku s osobou
+250,Modřice - Brno-H.Heršpice,20121224134000,20121224160000,následky srážky vlaku s osobou
+231,Praha-H.Počernice - Mstětice,20121227234500,20121227030000,následky srážky vlaku s osobou
+270,Polanka n.O. - Ostrava-Svinov,20121227080800,20121227110000,následky srážky vlaku s osobou
+321,Havířov - Albrechtice u Č.T.,20121228144400,20121228173000,následky srážky vlaku s osobou
+185,Sušice - Hrádek u Suš.,20121231043600,20121231073600,následky srážky vlaku s osobou
+142,Pernink - Johanngeorgenstadt,20121231071700,20121231111700,překážka na trati
+111,Kralupy n.Vlt. - Velvary,20130101145900,20130101183000,následky srážky vlaku s osobou
+244,Moravské Bránice - Ivančice,20130102213000,20130102234500,následky srážky vlaku s osobou
+300,Brno hl.n. - Brno-Chrlice,20130104071000,20130104100000,následky srážky vlaku s osobou
+140,Karlovy Vary - Chodov,20130104110000,20130104131200,následky srážky vlaku s osobou
+200,Příbram - Milín,20130104175500,20130104205000,následky srážky vlaku s osobou
+220,Veselí n.Luž. - Soběslav,20130105181500,20130105200000,překážka na trati
+270,Olomouc hl.n. - Přerov,20130109142700,20130109162700,ostatní
+320,Dětmarovice - Karviná hl.n.,20130109175500,20130109213000,následky srážky vlaku s osobou
+171,Řevnice - Praha-Radotín,20130110150000,20130110173000,následky srážky vlaku s osobou
+330,Otrokovice - Napajedla,20130111054500,20130111100000,následky srážky vlaku s osobou
+20,Převýšov - Chlumec n.C.,20130112102500,20130112133000,následky srážky vlaku s osobou
+170,Plzeň hl.n. - Chrást u Plzně,20130116153400,20130116193000,následky srážky vlaku s osobou
+220,Tábor - Planá n.Luž.,20130116190000,20130116223000,následky srážky vlaku s osobou
+91,Praha-Bubeneč - Roztoky u Prahy,20130119195000,20130119215900,následky srážky vlaku s osobou
+320,Louky n.Olší - Karviná hl.n.,20130121115500,20130121150000,následky srážky vlaku s osobou
+320,Třinec (Trzyniec) - Bystřice (Bystrzyca),20130121123500,20130121160000,následky srážky vlaku s osobou
+18,Choceň - Vys.Mýto m.,20130124191500,20130124233000,následky srážky vlaku s osobou
+260,Rájec-Jestřebí - Letovice,20130125183100,20130125203100,následky srážky vlaku s osobou
+331,Lípa nad Dřevnicí - Otrokovice,20130127194800,20130127220000,následky srážky vlaku s osobou
+260,Rájec-Jestřebí - Skalice n.Svit.,20130128181500,20130128204500,následky srážky vlaku s osobou
+20,Praskačka - Hradec Králové hl.n.,20130130150000,20130130180000,následky srážky vlaku s osobou
+11,Úvaly - Č.Brod,20130130183500,20130130223000,následky srážky vlaku s osobou
+20,Újezd u Choc. - Újezd u Choc.,20130201141300,20130201171500,následky srážky vlaku s osobou
+18,Újezd u Choc. - Újezd u Choc.,20130201141300,20130201171500,následky srážky vlaku s osobou
+10,Újezd u Choc. - Újezd u Choc.,20130201141300,20130201171500,následky srážky vlaku s osobou
+300,Brno hl.n. - Přerov,20130201203500,20130201223500,následky srážky vlaku s osobou
+270,Brno hl.n. - Přerov,20130201203500,20130201223500,následky srážky vlaku s osobou
+70,Mladá Boleslav hl.n. - Bakov n.Jiz.,20130201212600,20130201232600,následky srážky vlaku s osobou
+120,Unhošť - Kladno,20130201221000,20130201235000,překážka na trati
+260,Rájec-Jestřebí - Adamov,20130204023800,20130204050000,následky srážky vlaku s osobou
+171,Praha hl.n. - Beroun,20130204073000,20130204123000,následky srážky vlaku s osobou
+170,Praha hl.n. - Beroun,20130204073000,20130204123000,následky srážky vlaku s osobou
+180,Praha hl.n. - Beroun,20130204073000,20130204123000,následky srážky vlaku s osobou
+72,Lysá n.L. - Ústí n.L.západ,20130204093000,20130204133000,následky srážky vlaku s osobou
+231,Lysá n.L. - Ústí n.L.západ,20130204093000,20130204133000,následky srážky vlaku s osobou
+11,Velim - Kolín,20130204130500,20130204160500,následky srážky vlaku s osobou
+330,Otrokovice - Tlumačov,20130204173000,20130204211500,následky srážky vlaku s osobou
+320,Návsí (Nawsie) - Mosty u Jabl.,20130205170000,20130205200000,následky srážky vlaku s osobou
+11,Praha hl.n. - Kolín,20130205181500,20130205211500,následky srážky vlaku s osobou
+10,Praha hl.n. - Kolín,20130205181500,20130205211500,následky srážky vlaku s osobou
+260,Praha hl.n. - Kolín,20130205181500,20130205211500,následky srážky vlaku s osobou
+231,Čelákovice - Lysá n.L.,20130207152900,20130207191500,následky srážky vlaku s osobou
+73,Ústí n.L.-Střekov - V.Březno,20130208065300,20130208090000,následky srážky vlaku s osobou
+221,Praha-Vršovice - Praha-Hostivař,20130208151800,20130208180000,následky srážky vlaku s osobou
+30,Železný Brod - Malá Skála,20130210230700,20130211020700,následky srážky vlaku s osobou
+330,Otrokovice - Tlumačov,20130212223000,20130213003000,následky srážky vlaku s osobou
+86,Zákupy - Č.Lípa hl.n.,20130213000500,20130213020500,následky srážky vlaku s osobou
+322,Frýdek-Místek - Dobrá u Frýd.-Míst.,20130217044000,20130217073000,následky srážky vlaku s osobou
+324,Frýdlant n.Ostr. - Ostravice,20130217050100,20130217073000,následky srážky vlaku s osobou
+97,Lovosice - Chotiměř,20130217113200,20130217153000,ostatní
+240,Zastávka u Brna - Rapotice,20130217202000,20130217222000,následky srážky vlaku s osobou
+32,Červený Kostelec - Červený Kostelec,20130220071000,20130220091000,následky srážky vlaku s osobou
+130,Odb Chomutov m. - Kyjice,20130220205000,20130220230100,následky srážky vlaku s osobou
+280,Jablůnka - Valašská Polanka,20130222095500,20130222123000,následky srážky vlaku s osobou
+230,Vlkaneč - Golčův Jeníkov,20130224052700,20130224092700,následky srážky vlaku s osobou
+230,Kutná Hora hl.n. - Čáslav,20130301222400,20130302002400,následky srážky vlaku s osobou
+10,Ústí n.Orl. - Dlouhá Třebová,20130304134000,20130304170000,následky srážky vlaku s osobou
+331,Zlín stř. - Zlín-Malenovice,20130304162900,20130304193000,následky srážky vlaku s osobou
+183,Klatovy - Přeštice,20130306125400,20130306145400,následky srážky vlaku s osobou
+300,Brno hl.n. - Brno-Chrlice,20130307174500,20130307210000,následky srážky vlaku s osobou
+330,Tlumačov - Hulín,20130308093400,20130308114500,následky srážky vlaku s osobou
+171,Karlštejn - Beroun,20130312202000,20130313003000,následky srážky vlaku s osobou
+340,Brno hl.n. - Brno-Černovice,20130315114000,20130315140000,následky srážky vlaku s osobou
+231,Praha-Vysočany - Praha Masarykovo n.,20130317192000,20130317221000,následky srážky vlaku s osobou
+11,Praha-Vysočany - Praha Masarykovo n.,20130317192000,20130317221000,následky srážky vlaku s osobou
+170,Valy u Mar.Láz. - Chodová Planá,20130319104200,20130319150000,následky srážky vlaku s osobou
+323,Frýdek-Místek - Lískovec u Frýd.,20130320213000,20130320235900,následky srážky vlaku s osobou
+300,Brno hl.n. - Brno-Chrlice,20130321054700,20130321090000,následky srážky vlaku s osobou
+91,Kralupy n.Vlt. - Nelahozeves,20130324010500,20130324040500,následky srážky vlaku s osobou
+270,Lukavice na M. - Moravičany,20130325221500,20130326030000,následky srážky vlaku s osobou
+32,Červený Kostelec - Starkoč,20130327190000,20130327220000,následky srážky vlaku s osobou
+317,Kravaře ve Sl. - Hlučín,20130329210800,20130330003000,následky srážky vlaku s osobou
+210,Vrané n.Vlt. - Davle,20130402183200,20130402220000,následky srážky vlaku s osobou
+70,Praha-Vysočany - Praha-Satalice,20130403195800,20130403230000,následky srážky vlaku s osobou
+231,Praha-Vysočany - Praha-Satalice,20130403195800,20130403230000,následky srážky vlaku s osobou
+230,Havlíčkův Brod - Kolín,20130404102700,20130404122700,následky srážky vlaku s osobou
+250,Havlíčkův Brod - Kolín,20130404102700,20130404122700,následky srážky vlaku s osobou
+321,Havířov - Ostrava-Bartovice,20130404200000,20130404233000,následky srážky vlaku s osobou
+331,Zlín stř. - Lípa nad Dřevnicí,20130404204500,20130404234000,následky srážky vlaku s osobou
+90,D.Beřkovice - Hněvice,20130407135500,20130407180000,následky srážky vlaku s osobou
+260,Rájec-Jestřebí - Blansko,20130408055400,20130408090000,následky srážky vlaku s osobou
+221,Praha-Vršovice - Praha-Hostivař,20130409112500,20130409132500,následky srážky vlaku s osobou
+321,Ostrava-Svinov - Ostrava-Vítkovice,20130410072500,20130410104300,následky srážky vlaku s osobou
+180,Plzeň hl.n. - Furth i Wald,20130410115000,20130410190000,následky srážky vlaku s osobou
+170,Plzeň hl.n. - Furth i Wald,20130410115000,20130410190000,následky srážky vlaku s osobou
+171,Plzeň hl.n. - Furth i Wald,20130410115000,20130410190000,následky srážky vlaku s osobou
+31,Opatovice n.L. - Hradec Králové hl.n.,20130411075500,20130411101500,následky srážky vlaku s osobou
+323,Baška - Frýdek-Místek,20130411203000,20130411225000,následky srážky vlaku s osobou
+231,Lysá n.L. - Čelákovice,20130411211500,20130411235900,následky srážky vlaku s osobou
+300,Kojetín - Němčice n.H.,20130411225500,20130412020000,následky srážky vlaku s osobou
+11,Úvaly - Č.Brod,20130412085000,20130412105000,následky srážky vlaku s osobou
+126,Bečov u Mostu - Břvany,20130412181100,20130412231100,následky srážky vlaku s osobou
+270,Suchdol n.O. - Polom,20130413040000,20130413070000,následky srážky vlaku s osobou
+221,Praha-Vršovice - Praha-Hostivař,20130413143200,20130413153000,následky srážky vlaku s osobou
+221,Říčany - Strančice,20130414203500,20130414235900,následky srážky vlaku s osobou
+250,Brno-Královo Pole - Brno-Židenice,20130415014800,20130415050000,následky srážky vlaku s osobou
+250,Břeclav - Lanžhot,20130417210000,20130417230000,následky srážky vlaku s osobou
+300,Kojetín - Chropyně,20130419220000,20130420013000,následky srážky vlaku s osobou
+260,Letovice - Březová n.Svit.,20130420031000,20130420071000,následky srážky vlaku s osobou
+262,Skalice n.Svit. - Boskovice,20130420053000,20130420071500,následky srážky vlaku s osobou
+130,Teplice v Č. - Bohosudov,20130423110400,20130423120000,následky srážky vlaku s osobou
+250,Lanžhot - Břeclav,20130424104500,20130424130000,následky srážky vlaku s osobou
+91,Nelahozeves - Kralupy n.Vlt.,20130424195500,20130424215500,následky srážky vlaku s osobou
+70,Praha-Vysočany - Praha-Satalice,20130425064300,20130425084300,následky srážky vlaku s osobou
+231,Praha-Vysočany - Praha-Satalice,20130425064300,20130425084300,následky srážky vlaku s osobou
+170,Plzeň hl.n. - Chrást u Plzně,20130426214500,20130427010000,následky srážky vlaku s osobou
+273,Litovel př. - Senice na H.,20130428162000,20130428193000,následky srážky vlaku s osobou
+331,Lípa nad Dřevnicí - Vizovice,20130429151800,20130429182000,následky srážky vlaku s osobou
+90,Povrly - Děčín hl.n.,20130430094300,20130430114300,následky srážky vlaku s osobou
+280,Jablůnka - Vsetín,20130501190000,20130501220000,následky srážky vlaku s osobou
+10,Přelouč - Řečany n.L.,20130506102500,20130506140000,následky srážky vlaku s osobou
+246,Břeclav - Boří les,20130508182400,20130508212400,následky srážky vlaku s osobou
+10,Kolín - Záboří n.L.,20130509051000,20130509080000,následky srážky vlaku s osobou
+260,Brno hl.n. - Adamov,20130509151300,20130509180000,následky srážky vlaku s osobou
+260,Brno hl.n. - Adamov,20130509151800,20130509170000,následky srážky vlaku s osobou
+11,Velim - Kolín,20130509191000,20130509220000,následky srážky vlaku s osobou
+270,Štěpánov - Olomouc hl.n.,20130510224500,20130511040000,následky srážky vlaku s osobou
+260,Rájec-Jestřebí - Blansko,20130513182500,20130513210000,následky srážky vlaku s osobou
+170,Beroun - Zdice,20130515040600,20130515064500,následky srážky vlaku s osobou
+221,Praha-Uhříněves - Říčany,20130515143000,20130515170000,následky srážky vlaku s osobou
+11,Kolín - Velim,20130516223000,20130517020000,následky srážky vlaku s osobou
+11,Kolín - Velim,20130516222800,20130517002800,následky srážky vlaku s osobou
+270,Hoštejn - Lukavice na M.,20130517162800,20130517193000,následky srážky vlaku s osobou
+41,Hněvčeves - Hořice v Podkrk.,20130518143000,20130518153000,překážka na trati
+280,Jablůnka - Vsetín,20130520073000,20130520094500,následky srážky vlaku s osobou
+321,Ostrava-Bartovice - Havířov,20130520185900,20130520205500,následky srážky vlaku s osobou
+171,Karlštejn - Beroun,20130521214900,20130521235900,následky srážky vlaku s osobou
+90,Povrly - Ústí n.L.hl.n.os.n.,20130523115500,20130523135500,následky srážky vlaku s osobou
+275,Olomouc hl.n. - Olomouc-N.Ulice,20130524075000,20130524095000,následky srážky vlaku s osobou
+70,Mladá Boleslav hl.n. - Mladá Boleslav-Debř,20130526095000,20130526105000,ostatní
+283,H.Lideč - Valašské Klobouky,20130601131800,20130601161800,následky srážky vlaku s osobou
+220,Č.Budějovice - Hluboká n.Vlt.-Zám.,20130603091000,20130603120000,následky srážky vlaku s osobou
+19,Rudoltice v Č. - Lanškroun,20130606141800,20130606170000,následky srážky vlaku s osobou
+270,Brodek u Přer. - Grygov,20130607201700,20130607231500,následky srážky vlaku s osobou
+87,Litoměřice hor.n. - Žalhostice,20130607200000,20130607220000,následky srážky vlaku s osobou
+320,Louky n.Olší - Č.Těšín,20130608190000,20130608210000,následky srážky vlaku s osobou
+290,Olomouc hl.n. - Bohuňovice,20130610095000,20130610130000,následky srážky vlaku s osobou
+130,Chomutov - Kyjice,20130610204500,20130610230000,následky srážky vlaku s osobou
+10,Řečany n.L. - Přelouč,20130614001500,20130614033000,následky srážky vlaku s osobou
+331,Otrokovice - Zlín stř.,20130614224900,20130615004400,následky srážky vlaku s osobou
+10,Ústí n.Orl. - Dlouhá Třebová,20130617105000,20130617140000,následky srážky vlaku s osobou
+323,Baška - Pržno,20130621040500,20130621070000,následky srážky vlaku s osobou
+280,Jablůnka - Valašské Meziříčí,20130622024000,20130622053000,následky srážky vlaku s osobou
+160,Plzeň hl.n. - Třemošná u Plzně,20130623083000,20130623130000,následky srážky vlaku s osobou
+330,Huštěnovice - Huštěnovice,20130624112000,20130624131500,následky srážky vlaku s osobou
+120,Praha-Dejvice - Praha-Veleslavín,20130624124500,20130624144500,následky srážky vlaku s osobou
+280,Vsetín - Valašská Polanka,20130624145500,20130624172000,následky srážky vlaku s osobou
+235,Zbraslavice - Zruč n.Sáz.,20130628141600,20130628170000,následky srážky vlaku s osobou
+90,D.Beřkovice - Vraňany,20130703161500,20130703200000,následky srážky vlaku s osobou
+70,Praha-Vysočany - Praha-Satalice,20130704074700,20130704120000,nepravidelnosti v dopravě
+197,Chroboly - Prachatice,20130705183200,20130705203200,následky srážky vlaku s osobou
+325,Štramberk - Veřovice,20130707164000,20130707210000,následky srážky vlaku s osobou
+89,Hrádek n.N. - Zittau,20130712055500,20130712075500,ostatní
+89,Liberec - Chrastava,20130712061900,20130712081900,následky srážky vlaku s osobou
+320,Třinec (Trzyniec) - Č.Těšín,20130712131700,20130712151700,následky srážky vlaku s osobou
+90,Bohušovice n.Ohří - Roudnice n.L.,20130712190500,20130712213000,následky srážky vlaku s osobou
+98,Bad Schandau - Děčín hl.n.,20130713113800,20130713163000,následky srážky vlaku s osobou
+11,Úvaly - Č.Brod,20130716141000,20130716200000,následky srážky vlaku s osobou
+20,Hradec Králové hl.n. - Hr.Králové-Sl.Př.,20130719205400,20130719233000,následky srážky vlaku s osobou
+130,Bohosudov - Teplice v Č.,20130720041800,20130720070000,následky srážky vlaku s osobou
+61,Jičín - Kopidlno,20130720150200,20130720183000,následky srážky vlaku s osobou
+260,Rájec-Jestřebí - Skalice n.Svit.,20130721072000,20130721092000,následky srážky vlaku s osobou
+33,Václavice - Starkoč,20130721152600,20130721190000,následky srážky vlaku s osobou
+26,Václavice - Starkoč,20130721152600,20130721190000,následky srážky vlaku s osobou
+40,N.Bydžov - Smidary,20130723204400,20130723233400,následky srážky vlaku s osobou
+130,Teplice v Č. - Bohosudov,20130723210500,20130723230500,následky srážky vlaku s osobou
+140,Klášterec n.Ohří - Perštejn,20130724202000,20130724223000,následky srážky vlaku s osobou
+90,Ústí n.L.hl.n.os.n. - Prackovice n.L.,20130727023600,20130727055300,následky srážky vlaku s osobou
+90,Ústí n.L.hl.n.os.n. - Prackovice n.L.,20130729103500,20130729123500,následky srážky vlaku s osobou
+171,Praha-Radotín - Dobřichovice,20130801072100,20130801100000,následky srážky vlaku s osobou
+330,Tlumačov - Hulín,20130801204500,20130801235900,následky srážky vlaku s osobou
+70,Mnichovo Hradiště - Bakov n.Jiz.,20130802093100,20130802113100,následky srážky vlaku s osobou
+183,Plzeň hl.n. - Plzeň-Valcha,20130802110000,20130802130000,následky srážky vlaku s osobou
+200,Milín - Příbram,20130806052000,20130806082000,následky srážky vlaku s osobou
+90,Lovosice - Prackovice n.L.,20130807050100,20130807073000,následky srážky vlaku s osobou
+91,Kralupy n.Vlt. - Praha Masarykovo n.,20130807063700,20130807083700,následky srážky vlaku s osobou
+122,Pha-Smích.Na Knížecí - Hostivice,20130807134000,20130807173000,následky srážky vlaku s osobou
+81,Děčín východ - Děčín hl.n.,20130810214000,20130810235900,následky srážky vlaku s osobou
+38,Raspenava - Bílý Potok p.Sm.,20130811042100,20130811070000,následky srážky vlaku s osobou
+270,Suchdol n.O. - Polom,20130811140500,20130811173000,následky srážky vlaku s osobou
+73,Boletice n.L. - Děčín východ,20130817084500,20130817113000,následky srážky vlaku s osobou
+89,Liberec - Hrádek n.N.,20130818073000,20130818103000,následky srážky vlaku s osobou
+70,Příšovice - Turnov,20130818104000,20130818123900,následky srážky vlaku s osobou
+26,Bolehošť - Opočno p.Orl.h.,20130820071900,20130820101900,následky srážky vlaku s osobou
+280,Valašská Polanka - Vsetín,20130821034000,20130821054000,následky srážky vlaku s osobou
+282,Vsetín - Hovězí,20130821035300,20130821055300,následky srážky vlaku s osobou
+340,Veselí n.M. - Uherský Ostroh,20130821095000,20130821120000,následky srážky vlaku s osobou
+185,Kolinec - Nemilkov,20130821200900,20130821230000,následky srážky vlaku s osobou
+31,Pardubice hl.n. - Pardubice-Ros.n.L.,20130821223200,20130822003800,následky srážky vlaku s osobou
+330,Nedakonice - St.Město u U.H.,20130823011000,20130823050000,následky srážky vlaku s osobou
+330,Huštěnovice - St.Město u U.H.,20130823223200,20130824013000,následky srážky vlaku s osobou
+11,Praha-Běchovice - Úvaly,20130823233000,20130824023000,následky srážky vlaku s osobou
+231,Praha-Vysočany - Praha-H.Počernice,20130827000100,20130827021700,následky srážky vlaku s osobou
+10,Kolín - Č.Třebová,20130827002000,20130827052000,následky srážky vlaku s osobou
+260,Brno hl.n. - Č.Třebová,20130827002400,20130827052400,následky srážky vlaku s osobou
+250,Lanžhot - Brno hl.n.,20130827002600,20130827062600,následky srážky vlaku s osobou
+184,Bor - Stráž u Tach.,20130827114000,20130827140000,následky srážky vlaku s osobou
+323,Lískovec u Frýd. - Frýdek-Místek,20130828053100,20130828080000,následky srážky vlaku s osobou
+11,Kolín - Praha hl.n.,20130830140900,20130830170000,následky srážky vlaku s osobou
+10,Kolín - Praha hl.n.,20130830140900,20130830170000,následky srážky vlaku s osobou
+270,Kolín - Praha hl.n.,20130830140900,20130830170000,následky srážky vlaku s osobou
+280,Kolín - Praha hl.n.,20130830140900,20130830170000,následky srážky vlaku s osobou
+171,Praha hl.n. - Praha-Smíchov,20130830220000,20130831000000,následky srážky vlaku s osobou
+11,Praha-Libeň - Praha-Běchovice,20130901055000,20130901083000,následky srážky vlaku s osobou
+231,Nymburk hl.n. - Poděbrady,20130903190000,20130903213000,následky srážky vlaku s osobou
+171,Dobřichovice - Praha-Radotín,20130904091000,20130904115000,následky srážky vlaku s osobou
+173,Praha-Řeporyje - Praha-Smíchov,20130904181500,20130904223000,následky srážky vlaku s osobou
+171,Karlštejn - Beroun,20130905065000,20130905085000,následky srážky vlaku s osobou
+271,Prostějov m.n. - Kostelec na H.,20130905071500,20130905091500,následky srážky vlaku s osobou
+250,Zaječí - Podivín,20130906220000,20130906231000,následky srážky vlaku s osobou
+250,Zaječí - Podivín,20130906220000,20130907004500,následky srážky vlaku s osobou
+171,Karlštejn - Zadní Třebaň,20130907205500,20130907235900,následky srážky vlaku s osobou
+183,Špičák - Hamry-Hoj.Stráž,20130908120000,20130908150000,následky srážky vlaku s osobou
+320,Čadca - Mosty u Jabl.,20130908161500,20130908180000,následky srážky vlaku s osobou
+323,Ostrava stř. - Ostrava-Kunčice,20130909154700,20130909200000,následky srážky vlaku s osobou
+300,Brno hl.n. - Vyškov na M.,20130911220400,20130912000400,následky srážky vlaku s osobou
+231,Praha-Vysočany - Praha-H.Počernice,20130913062500,20130913110000,následky srážky vlaku s osobou
+130,Most - Bílina,20130913081000,20130913103000,následky srážky vlaku s osobou
+330,Otrokovice - Napajedla,20130916071000,20130916100000,následky srážky vlaku s osobou
