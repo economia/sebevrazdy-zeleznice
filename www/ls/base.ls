@@ -14,7 +14,7 @@
 width = window.innerWidth
 height = window.innerHeight
 animation = new Animation!
-    ..start!
+
 map = new Map do
     \#content
     json
@@ -24,3 +24,7 @@ map = new Map do
 tiler = new Tiler do
     \#content
     map
+
+<~ setTimeout _, 800
+<~ map.fadeBg 1600
+animation.start!

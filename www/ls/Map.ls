@@ -19,11 +19,28 @@ window.Map = class Map
             ..attr \width @width
             ..attr \height @height
         @bgLayer = @svg.append \g
-        @railGroup = @svg.append \g
+        @bgFaderGroup = @svg.append \g
+        @bgFader = @bgFaderGroup.append \rect
+            ..attr \x 0
+            ..attr \y 0
+            ..attr \width @width
+            ..attr \height @height
+            ..attr \fill \black
+            ..attr \opacity 0
 
+        @railGroup = @svg.append \g
         @drawRailways!
         @animation.on \frame @~onFrame
 
+    fadeBg: (duration, cb) ->
+        @bgFader.transition!
+            ..duration duration
+            ..attr \opacity 0.8
+        <~ setTimeout _, duration
+        @railways.transition!
+            ..duration duration
+            ..attr \opacity 1
+        setTimeout cb, duration
     drawRailways: ->
         @railways = @railGroup.selectAll \path.all
             .data @features
@@ -33,6 +50,7 @@ window.Map = class Map
                 ..attr \title -> it.properties.id
                 ..attr \stroke \#aaa
                 ..attr \stroke-width 2
+                ..attr \opacity 0
 
     drawRailway: (railwayNumber) ->
         fadeInDuration = 800
