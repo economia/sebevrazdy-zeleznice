@@ -25,7 +25,7 @@ window.Map = class Map
         @animation.on \frame @~onFrame
 
     drawRailways: ->
-        @railGroup.selectAll \path.all
+        @railways = @railGroup.selectAll \path.all
             .data @features
             .enter!.append \path
                 ..attr \class \all
@@ -38,8 +38,7 @@ window.Map = class Map
         fadeInDuration = 800
         pauseDuration = 400
         fadeOutDuration = 800
-        railwayPath = @railGroup.selectAll \path.all
-            .filter -> it.properties.trat == railwayNumber
+        railwayPath = @railways.filter -> it.properties.trat == railwayNumber
         railwayPath
             ..transition!
                 ..duration fadeInDuration

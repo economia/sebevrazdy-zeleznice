@@ -14,7 +14,7 @@
 width = window.innerWidth
 height = window.innerHeight
 animation = new Animation!
-    # ..start!
+    ..start!
 map = new Map do
     \#content
     json
