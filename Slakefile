@@ -161,7 +161,7 @@ task \build ->
     combine-scripts compression: no
 
 task \deploy ->
-    download-external-scripts!
+    <~ download-external-scripts!
     # build-all-server-scripts!
     # refresh-manifest!
     <~ download-external-styles
