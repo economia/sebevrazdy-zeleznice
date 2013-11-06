@@ -31,7 +31,7 @@ window.Map = class Map
 
         @railGroup = @svg.append \g
         @drawRailways!
-        @animation.on \frame @~onFrame
+        @animation.on \frame.map @~onFrame
 
     fadeBg: (duration, cb) ->
         @bgFader.transition!

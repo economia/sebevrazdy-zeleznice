@@ -1,4 +1,5 @@
 window.FlipBoard = class FlipBoard
+    @flipboardIndex = 0
     currentDatum: null
     (@baseSelector, @animation, @data) ->
         @element = d3.select @baseSelector .append \div
@@ -10,10 +11,9 @@ window.FlipBoard = class FlipBoard
             \lower
             @element.append \div .attr \class \lower
 
-        @animation.on \frame @~onFrame
+        @animation.on "frame.flip-#{@@flipboardIndex}" @~onFrame
+        ++@@flipboardIndex
 
-    flip: (newDatum) ->
-        [@upperBoard, @lowerBoard].forEach -> it.flip newDatum
 
     onFrame: (state)->
         index = Math.floor state
@@ -24,6 +24,8 @@ window.FlipBoard = class FlipBoard
         progress = (state % 1) * 10
         [@upperBoard, @lowerBoard].forEach -> it.progress progress
 
+    flip: (newDatum) ->
+        [@upperBoard, @lowerBoard].forEach -> it.flip newDatum
 
 class Board
     lastProgress: null
