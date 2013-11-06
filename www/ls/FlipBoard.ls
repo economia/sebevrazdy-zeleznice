@@ -21,7 +21,7 @@ window.FlipBoard = class FlipBoard
         if datum isnt @currentDatum
             @flip datum
             @currentDatum = datum
-        return if @animation.step > 9
+        return if @animation.step > 8
         accellerator = Math.max do
             8 - @animation.step
             3

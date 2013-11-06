@@ -21,23 +21,24 @@ body
         &.toPlace
             left 300px
         &.date
-            top 60px
-            width 399px
         &.counter
-            top 60px
-            width 150px
-            left 140px
-            .upper
-            .lower
-            .new
-            .old
-                width @width
-                span
-                    display block
-                    width @width
-                    left -15px
-                    text-align right
-
         &.delays
             top 60px
-            left 200px
+            left auto
+            transform-origin 100% 0px
+        &.date
+            width 399px
+            right 230px
+        &.counter
+            width 150px
+            right 140px
+            span
+                display block
+                width @width
+                left -15px
+                text-align right
+        &.delays
+            left auto
+            right 0px
+            width 300px
+
