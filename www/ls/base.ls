@@ -37,6 +37,13 @@ new FlipBoard do
     animation
     csv.map (.toPlace)
 
+
+new FlipBoard do
+    \#flipboards
+    \date
+    animation
+    csv.map (.fromDate.format "D. M. YYYY")
+
 # <~ setTimeout _, 800
 <~ map.fadeBg 100
 animation.start!
