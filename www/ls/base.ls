@@ -73,6 +73,7 @@ new FlipBoard do
     animation
     csv.map (.delayText)
 
-# <~ setTimeout _, 800
-<~ map.fadeBg 100
+<~ setTimeout _, 800
+d3.select \#flipboards .transition!delay 1600 .duration 1600 .style \opacity 1
+<~ map.fadeBg 1600
 animation.start!
