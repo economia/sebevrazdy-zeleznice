@@ -62,4 +62,11 @@ class Board
     setHeight: (element, scale) ->
         dy = (1 - scale) * 30
         if @type == \lower then dy *= -1
-        element.style \-webkit-transform "translate(0, #{dy}px)scaleY(#scale)"
+        element.style "#{prefix}transform" "translate(0, #{dy}px)scaleY(#scale)"
+
+prefix = ""
+let
+    for p in ["webkit", "ms", "Moz", "O"]
+        if p + "Transform" of document.body.style
+            prefix := "-" + p.toLowerCase() + "-"
+            return
