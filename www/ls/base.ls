@@ -1,3 +1,6 @@
+if not Modernizr.svg
+    return
+d3.selectAll \.fallback .remove!
 (err, json) <~ d3.json "../data/trate.topo.json"
 delaySum = 0
 (err, csv) <~ d3.csv do

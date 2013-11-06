@@ -4,6 +4,7 @@ option 'testFile' 'File in (/lib or /test) to run test on' 'FILE'
 option 'currentfile' 'Latest file that triggered the save' 'FILE'
 
 externalScripts =
+    \http://service.ihned.cz/js/modernizr/v2.6.2.svg.min.js
     \http://service.ihned.cz/js/d3/v3.3.2.min.js
     \http://d3js.org/d3.geo.tile.v0.min.js
     \http://service.ihned.cz/js/topojson/v1.min.js
@@ -17,16 +18,17 @@ build-styles = (options = {}) ->
     require! async
     (err, [external, local]) <~ async.parallel do
         *   (cb) -> fs.readFile "#__dirname/www/external.css", cb
-            (cb) -> prepare-stylus options, cb
+            (cb) -> prepare-stylus \screen, options, cb
     fs.writeFile "#__dirname/www/screen.css", external + "\n\n\n" + local
 
-prepare-stylus = (options, cb) ->
+prepare-stylus = (file, options, cb) ->
     console.log "Building Stylus"
     require! stylus
-    (err, data) <~ fs.readFile "#__dirname/www/styl/screen.styl"
+    (err, data) <~ fs.readFile "#__dirname/www/styl/#file.styl"
     data .= toString!
     stylusCompiler = stylus data
         ..include "#__dirname/www/styl/"
+        ..define \iurl stylus.url paths: ["#__dirname/www/img/"]
     if options.compression
         stylusCompiler.set \compress true
     (err, css) <~ stylusCompiler.render
@@ -95,7 +97,7 @@ combine-scripts = (options = {}, cb) ->
     else
         external = fs.readFileSync "#__dirname/www/external.js"
         code = external + code
-    (err) <~ fs.writeFile "#__dirname/www/script.js", code
+    fs.writeFileSync "#__dirname/www/script.js", code
     console.log "Scripts combined"
     cb? err
 
@@ -110,11 +112,16 @@ test-script = (file) ->
     require! child_process.exec
     [srcOrTest, ...fileAddress] = file.split /[\\\/]/
     fileAddress .= join '/'
-    (err, stdout, stderr) <~ exec "lsc -o #__dirname/lib -c #__dirname/src"
-    throw stderr if stderr
+    <~ build-all-server-scripts
     cmd = "mocha --compilers ls:livescript -R tap --bail #__dirname/test/#fileAddress"
     (err, stdout, stderr) <~ exec cmd
     niceTestOutput stdout, stderr, cmd
+
+build-all-server-scripts = (cb) ->
+    require! child_process.exec
+    (err, stdout, stderr) <~ exec "lsc -o #__dirname/lib -c #__dirname/src"
+    throw stderr if stderr
+    cb? err
 
 relativizeFilename = (file) ->
     file .= replace __dirname, ''
@@ -138,6 +145,13 @@ gzip-file = (file, cb) ->
     input.pipe gzip .pipe output
 
     cb!
+refresh-manifest = (cb) ->
+    (err, file) <~ fs.readFile "#__dirname/www/manifest.template.appcache"
+    return if err
+    file .= toString!
+    file += '\n# ' + new Date!toUTCString!
+    <~ fs.writeFile "#__dirname/www/manifest.appcache", file
+    cb?!
 
 task \build ->
     download-external-scripts!
@@ -145,8 +159,11 @@ task \build ->
     build-styles compression: no
     <~ build-all-scripts
     combine-scripts compression: no
+
 task \deploy ->
     download-external-scripts!
+    # build-all-server-scripts!
+    # refresh-manifest!
     <~ download-external-styles
     build-styles compression: yes
     <~ build-all-scripts
