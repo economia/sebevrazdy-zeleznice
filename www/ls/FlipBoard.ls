@@ -60,4 +60,6 @@ class Board
         @setHeight @new, 0
 
     setHeight: (element, scale) ->
-        element.style \height "#{60 * scale}px"
+        dy = (1 - scale) * 30
+        if @type == \lower then dy *= -1
+        element.style \-webkit-transform "translate(0, #{dy}px)scaleY(#scale)"
