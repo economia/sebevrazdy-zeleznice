@@ -13,10 +13,7 @@ window.FlipBoard = class FlipBoard
         @animation.on \frame @~onFrame
 
     flip: (newDatum) ->
-        for board in [@upperBoard, @lowerBoard]
-            board.flip!
-
-
+        [@upperBoard, @lowerBoard].forEach -> it.flip newDatum
 
     onFrame: (state)->
         index = Math.floor state
@@ -33,8 +30,10 @@ class Board
     (@type, @element) ->
         @new = @element.append \div
             ..attr \class \new
+        @newContent = @new.append \span
         @old = @element.append \div
             ..attr \class \old
+        @oldContent = @old.append \span
 
     progressOld: (progress) ->
         return if progress < 0
@@ -49,9 +48,13 @@ class Board
         scale = Math.sin progress * Math.PI / 2
         @setHeight @new, scale
 
-    flip: ->
-        | @type == \upper => @flipNew!
-        | otherwise => @flipOld!
+    flip: (value) ->
+        switch @type
+            | \upper    => @flipNew!
+            | otherwise => @flipOld!
+        @oldContent.html @newContent.html!
+        @newContent.html value
+
 
     flipNew: ->
         @setHeight @old, 1
