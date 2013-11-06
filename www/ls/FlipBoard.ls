@@ -40,20 +40,24 @@ class Board
         return if progress < 0
         return if progress > 1
         scale = Math.cos progress * Math.PI / 2
-        @old.style \height "#{60 * scale}px"
+        @setHeight @old, scale
+
 
     progressNew: (progress) ->
         return if progress < 0
         return if progress > 1
         scale = Math.sin progress * Math.PI / 2
-        @new.style \height "#{60 * scale}px"
+        @setHeight @new, scale
 
     flip: ->
         | @type == \upper => @flipNew!
         | otherwise => @flipOld!
 
     flipNew: ->
-        @old.style \height "60px"
+        @setHeight @old, 1
 
     flipOld: ->
-        @new.style \height "0px"
+        @setHeight @new, 0
+
+    setHeight: (element, scale) ->
+        element.style \height "#{60 * scale}px"
