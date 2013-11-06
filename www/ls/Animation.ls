@@ -2,6 +2,7 @@ window.Animation = class Animation
     step: 0.5_per_second
     currentValue: 0
     stopping: no
+    t0 : null
     ->
         @event = d3.dispatch "frame"
         @on = @event~on
@@ -10,7 +11,14 @@ window.Animation = class Animation
         window.requestAnimationFrame @~increment
 
     increment: (t) ->
-        @currentValue = t * @step / 1000
-        @event.frame @currentValue
+        if @t0 isnt null
+            @currentValue += (t - @t0) * @step / 1000
+            if @step < 1
+                @step *= 1.0015
+            else if @step < 20
+                @step *= 1.004
+            @event.frame @currentValue
+        @t0 = t
+
         if not @stopping
             window.requestAnimationFrame @~increment

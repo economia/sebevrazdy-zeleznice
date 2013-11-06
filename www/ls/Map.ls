@@ -55,7 +55,7 @@ window.Map = class Map
                 ..attr \opacity 0
 
     drawRailway: (railwayNumber) ->
-        glowDuration = 600
+        glowDuration = 100
         fadeInDuration = 200
         pauseDuration = 600
         fadeOutDuration = 800
