@@ -79,6 +79,9 @@ window.Map = class Map
     onFrame: (state) ->
         dataIndex = Math.floor state
         datum = @data[dataIndex]
+        if datum is void
+            @animation.stop!
+            return
         if datum isnt @currentDatum
             @drawRailway datum.railway, dataIndex == @dataLength - 1
             @currentDatum = datum
