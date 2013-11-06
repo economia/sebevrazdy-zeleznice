@@ -1,6 +1,8 @@
 window.Map = class Map
     currentDatum: null
+    dataLength: null
     (parentSelector, @topoData, @data, @animation, {@width, @height}:options) ->
+        @dataLength = @data.length
         @projection = d3.geo.mercator!
             .scale 50000  / 2 / Math.PI
             .translate [@width/2, @height/2]
@@ -54,7 +56,7 @@ window.Map = class Map
                 ..attr \stroke-width 2
                 ..attr \opacity 0
 
-    drawRailway: (railwayNumber) ->
+    drawRailway: (railwayNumber, isLast) ->
         glowDuration = 100
         fadeInDuration = 200
         pauseDuration = 600
@@ -68,7 +70,8 @@ window.Map = class Map
                 ..delay glowDuration
                 ..duration fadeInDuration
                 ..attr \stroke \#fff
-            ..transition!
+        if not isLast
+            railwayPath.transition!
                 ..delay pauseDuration + fadeInDuration + glowDuration
                 ..duration fadeOutDuration
                 ..attr \stroke \#666
@@ -77,6 +80,6 @@ window.Map = class Map
         dataIndex = Math.floor state
         datum = @data[dataIndex]
         if datum isnt @currentDatum
-            @drawRailway datum.railway
+            @drawRailway datum.railway, dataIndex == @dataLength - 1
             @currentDatum = datum
 
