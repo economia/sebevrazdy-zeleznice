@@ -9,6 +9,8 @@ window.Animation = class Animation
 
     start: ->
         window.requestAnimationFrame @~increment
+    stop: ->
+        @stopping = yes
 
     increment: (t) ->
         if @t0 isnt null
