@@ -15,8 +15,10 @@ window.Animation = class Animation
     increment: (t) ->
         if @t0 isnt null
             @currentValue += (t - @t0) * @step / 1000
-            if @currentValue > 3 and @step < 20
+            if 800 > @currentValue > 3 and @step < 20
                 @step *= 1.004
+            else if @currentValue > 850 and @step > 1
+                @step *= 0.98
             @event.frame @currentValue
         @t0 = t
 
