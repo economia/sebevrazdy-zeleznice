@@ -16,59 +16,13 @@ body
                 stroke red
                 stroke-width 5px
                 fill red
-
-    .flipboard
+    #flipboards
         position absolute
         top 0px
         right 0px
-        width 912px
-        height 120px
-        .upper
-        .lower
-        .new
-        .old
-            position absolute
-            left 0px
-            width @width
-            overflow hidden
-        .new
-            top 0px
-        .old
-            bottom 0px
-        .new
-        .old
-            span
-                line-height 0px
-                font-size 60px
-                color white
-                position absolute
-                left 30px
-                top 57px
-        .lower
-            .new
-            .old
-                span
-                    top -3px
-
-        .upper
-            top 0px
-
-        .lower
-            top 60px
-            .new
-                z-index 1
-        .upper
-        .lower
-            height 60px
-            .new
-            .old
-                width @width
-                height @height
-        .upper
-            .new
-            .old
-                background black url('./img/flipboard.png') no-repeat -86px 0px
-        .lower
-            .new
-            .old
-                background black url('./img/flipboard.png') no-repeat -86px -60px
+        width 575px
+    .flipboard
+        @import flipboard
+    .flipboard
+        &.toPlace
+            left 300px

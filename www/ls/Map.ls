@@ -1,10 +1,11 @@
 window.Map = class Map
     currentDatum: null
     (parentSelector, @topoData, @data, @animation, {@width, @height}:options) ->
+        console.log (1 .<<. 15)
         @projection = d3.geo.mercator!
-            .scale (1 .<<. 16) / 2 / Math.PI
+            .scale 50000  / 2 / Math.PI
             .translate [@width/2, @height/2]
-        center = @projection [15.48 49.82]
+        center = @projection [15.48 49.90]
         @zoom = d3.behavior.zoom!
             ..scale @projection.scale! * 2 * Math.PI
             ..translate [@width - center[0], @height - center[1]]

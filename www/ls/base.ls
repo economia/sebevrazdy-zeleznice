@@ -25,10 +25,17 @@ tiler = new Tiler do
     \#content
     map
 
-flipBoard = new FlipBoard do
-    \#content
+new FlipBoard do
+    \#flipboards
+    \fromPlace
     animation
     csv.map (.fromPlace)
+
+new FlipBoard do
+    \#flipboards
+    \toPlace
+    animation
+    csv.map (.toPlace)
 
 # <~ setTimeout _, 800
 <~ map.fadeBg 100

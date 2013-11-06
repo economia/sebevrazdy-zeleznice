@@ -1,9 +1,9 @@
 window.FlipBoard = class FlipBoard
     @flipboardIndex = 0
     currentDatum: null
-    (@baseSelector, @animation, @data) ->
+    (@baseSelector, className, @animation, @data) ->
         @element = d3.select @baseSelector .append \div
-            ..attr \class \flipboard
+            ..attr \class "flipboard #{className}"
         @upperBoard = new Board do
             \upper
             @element.append \div .attr \class \upper
