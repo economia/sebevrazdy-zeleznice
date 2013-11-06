@@ -72,8 +72,20 @@ new FlipBoard do
     "Celkové zpoždění"
     animation
     csv.map (.delayText)
+window.firstStart = ->
+    <~ setTimeout _, 800
+    d3.select \#flipboards .transition!delay 1600 .duration 1600 .style \opacity 1
+    <~ map.fadeBg 1600
+    animation.start!
 
-<~ setTimeout _, 800
-d3.select \#flipboards .transition!delay 1600 .duration 1600 .style \opacity 1
-<~ map.fadeBg 1600
-animation.start!
+overlay = d3.select \body
+    ..append \div
+        ..attr \class \overlay
+        ..append \div
+            ..html "Kliknutím spustíte vizualizaci"
+        ..on \click ->
+            d3.select @ .transition!
+                ..duration 400
+                ..style \opacity 0
+                ..remove!
+            firstStart!
