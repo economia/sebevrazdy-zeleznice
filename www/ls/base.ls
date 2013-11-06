@@ -41,30 +41,35 @@ tiler = new Tiler do
 new FlipBoard do
     \#flipboards
     \fromPlace
+    "Ze stanice"
     animation
     csv.map (.fromPlace)
 
 new FlipBoard do
     \#flipboards
     \toPlace
+    "Do stanice"
     animation
     csv.map (.toPlace)
 
 new FlipBoard do
     \#flipboards
     \date
+    "Datum"
     animation
     csv.map (.fromDate.format "D. M. YYYY")
 
 new FlipBoard do
     \#flipboards
     \counter
+    "Celkem incidentů"
     animation
     csv.map (.id + 1)
 
 new FlipBoard do
     \#flipboards
     \delays
+    "Celkové zpoždění"
     animation
     csv.map (.delayText)
 
