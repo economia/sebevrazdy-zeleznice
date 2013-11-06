@@ -21,12 +21,12 @@ window.FlipBoard = class FlipBoard
         if datum isnt @currentDatum
             @flip datum
             @currentDatum = datum
-        progress = (state % 1) * 2
-        @upperBoard.progressOld progress
-        @lowerBoard.progressNew progress - 1
+        progress = (state % 1) * 10
+        [@upperBoard, @lowerBoard].forEach -> it.progress progress
 
 
 class Board
+    lastProgress: null
     (@type, @element) ->
         @new = @element.append \div
             ..attr \class \new
@@ -35,18 +35,22 @@ class Board
             ..attr \class \old
         @oldContent = @old.append \span
 
-    progressOld: (progress) ->
-        return if progress < 0
-        return if progress > 1
-        scale = Math.cos progress * Math.PI / 2
-        @setHeight @old, scale
+    progress: (progress) ->
+        if @type == \lower
+            progress -= 1
+            f = Math.sin
+            element = @new
+        else
+            f = Math.cos
+            element = @old
+        progress = Math.max 0, progress
+        progress = Math.min 1, progress
+        return if @lastProgress is progress
+        @lastProgress = progress
+        scale = f progress * Math.PI / 2
+        if scale < 0.05 then scale = 0
+        @setHeight element, scale
 
-
-    progressNew: (progress) ->
-        return if progress < 0
-        return if progress > 1
-        scale = Math.sin progress * Math.PI / 2
-        @setHeight @new, scale
 
     flip: (value) ->
         switch @type
