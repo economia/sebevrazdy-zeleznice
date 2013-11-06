@@ -72,9 +72,13 @@ new FlipBoard do
     "Celkové zpoždění"
     animation
     csv.map (.delayText)
+animationControl = new AnimationControl do
+    \#animationControl
+    animation
 window.firstStart = ->
     <~ setTimeout _, 800
     d3.select \#flipboards .transition!delay 1600 .duration 1600 .style \opacity 1
+    animationControl.display!
     <~ map.fadeBg 1600
     animation.start!
 

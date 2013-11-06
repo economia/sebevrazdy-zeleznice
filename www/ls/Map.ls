@@ -63,6 +63,7 @@ window.Map = class Map
         fadeOutDuration = 800
         if isLast
             pauseDuration = 5000
+            fadeOutDuration = 1600
 
         railwayPath = @railways.filter -> it.properties.trat == railwayNumber
         railwayPath
