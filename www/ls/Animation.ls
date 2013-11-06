@@ -1,5 +1,5 @@
 window.Animation = class Animation
-    step: 0.5_per_second
+    step: 0.3_per_second
     currentValue: 0
     stopping: no
     t0 : null
@@ -13,9 +13,7 @@ window.Animation = class Animation
     increment: (t) ->
         if @t0 isnt null
             @currentValue += (t - @t0) * @step / 1000
-            if @step < 1
-                @step *= 1.0015
-            else if @step < 20
+            if @currentValue > 3 and @step < 20
                 @step *= 1.004
             @event.frame @currentValue
         @t0 = t

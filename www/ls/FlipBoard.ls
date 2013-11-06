@@ -21,9 +21,11 @@ window.FlipBoard = class FlipBoard
         if datum isnt @currentDatum
             @flip datum
             @currentDatum = datum
-            # console.log @animation.step
-        return if @animation.step > 4
-        progress = (state % 1) * 10
+        return if @animation.step > 6
+        accellerator = Math.max do
+            8 - @animation.step
+            2
+        progress = (state % 1) * accellerator
         [@upperBoard, @lowerBoard].forEach -> it.progress progress
 
     flip: (newDatum) ->

@@ -59,7 +59,7 @@ window.Map = class Map
     drawRailway: (railwayNumber, isLast) ->
         glowDuration = 100
         fadeInDuration = 200
-        pauseDuration = 600
+        pauseDuration = 1600
         fadeOutDuration = 800
         railwayPath = @railways.filter -> it.properties.trat == railwayNumber
         railwayPath
