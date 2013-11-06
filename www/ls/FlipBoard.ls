@@ -21,10 +21,10 @@ window.FlipBoard = class FlipBoard
         if datum isnt @currentDatum
             @flip datum
             @currentDatum = datum
-        return if @animation.step > 10
+        return if @animation.step > 9
         accellerator = Math.max do
             8 - @animation.step
-            2
+            3
         progress = (state % 1) * accellerator
         [@upperBoard, @lowerBoard].forEach -> it.progress progress
 
