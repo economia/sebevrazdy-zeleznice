@@ -27,8 +27,8 @@ delaySum = 0
             delaySum  : delaySum
             delayText : delayText
 
-width = window.innerWidth
-height = window.innerHeight
+width = 970
+height = 600
 animation = new Animation!
 
 map = new Map do
