@@ -9,6 +9,7 @@ window.Animation = class Animation
 
     start: ->
         window.requestAnimationFrame @~increment
+
     stop: ->
         @stopping = yes
 

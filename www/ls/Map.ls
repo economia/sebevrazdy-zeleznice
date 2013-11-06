@@ -61,6 +61,9 @@ window.Map = class Map
         fadeInDuration = 200
         pauseDuration = 1600
         fadeOutDuration = 800
+        if isLast
+            pauseDuration = 5000
+
         railwayPath = @railways.filter -> it.properties.trat == railwayNumber
         railwayPath
             ..transition!
@@ -70,8 +73,7 @@ window.Map = class Map
                 ..delay glowDuration
                 ..duration fadeInDuration
                 ..attr \stroke \#fff
-        if not isLast
-            railwayPath.transition!
+            ..transition!
                 ..delay pauseDuration + fadeInDuration + glowDuration
                 ..duration fadeOutDuration
                 ..attr \stroke \#666
