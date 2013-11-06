@@ -1,7 +1,6 @@
 window.Map = class Map
     currentDatum: null
     (parentSelector, @topoData, @data, @animation, {@width, @height}:options) ->
-        console.log (1 .<<. 15)
         @projection = d3.geo.mercator!
             .scale 50000  / 2 / Math.PI
             .translate [@width/2, @height/2]
