@@ -5,7 +5,7 @@ ve spolupráci s oddělením vývoje redakčních technologií [IHNED.cz](http:/
 
 ## Sebevraždy na železnici
 
-link na článek
+http://data.blog.ihned.cz/c1-61216390-skokem-pod-vlak-u-nas-ukonci-zivot-stejne-lidi-jako-ve-velke-britanii-proc
 
 S dotazy a přípomínkami se obracejte na e-mail jan.bocek@economia.cz.
 
