@@ -13,7 +13,7 @@ window.Tiler = class Tiler
                 ..attr \class \tile
                 ..attr \width 1
                 ..attr \height 1
-                ..attr \xlink:href -> "http://ihned-mapy.s3-website-eu-west-1.amazonaws.com/desaturized/#{it.2}/#{it.0}/#{it.1}.png"
+                ..attr \xlink:href -> "http://staticmaps.ihned.cz/tiles-desaturated/#{it.2}/#{it.0}/#{it.1}.png"
                 ..attr \x -> it.0
                 ..attr \y -> it.1
                 ..on \error -> @remove!
